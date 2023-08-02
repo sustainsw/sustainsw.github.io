@@ -1,6 +1,9 @@
 ---
 title: Home
-layout: default
+nav: Home
+nav_order: 0
+layout: page
 ---
 
-{% include jumbotron.html title=site.title lead="" btn-text="Learn More" btn-link="about.html" %}
+
+TODO: add content

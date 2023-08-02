@@ -1,1 +1,27 @@
 /* add your scss tweaks here */
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.sidebar-layout {
+    width: 20%;
+    text-align: right;
+
+}
+
+.sidebar a {
+    color: black;
+}
+
+.sidebar ul {
+    line-height: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-layout {
+    width: 80%;
+}
