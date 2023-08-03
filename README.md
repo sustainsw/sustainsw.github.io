@@ -3,7 +3,7 @@ The website can be updated using Markdown.
 
 To update exsiting webpages, update corresponding Markdown (`.md`) files in `pages` folder. 
 
-To add a new webpage, create a Markdown  (`.md`) file in `pages` folder, putting the following code at the top of the file (including the triple hyphen `---`):
+To add a new webpage, create a Markdown  (`.md`) file in `pages` folder, put the following code at the top of the file (including the triple hyphen `---`), and update the text after `:` symbol:
 ```
 ---
 title: <page title>
