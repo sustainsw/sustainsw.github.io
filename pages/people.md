@@ -4,4 +4,10 @@ nav: People
 nav_order: 3
 ---
 
-TODO: add content
+# Stephen Mullin
+
+# Megan Courtman
+
+# Hongrui Wang
+
+# Mark Thurston
