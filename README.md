@@ -16,10 +16,10 @@ nav_order: <position of the lablel in navigation bar>
 Given BibTex of articles, one way to add reference is as follows:
 1. Use [BibTex to HTML](https://asouqi.github.io/bibtex-converter/) tool (or any other) to convert BibTex to HTML.
 2. Add `{% raw %}` before the html code and `{% endraw %}` after, as in the following example:
-   ```html
-  <div class="csl-bib-body">
-    <div data-csl-entry-id="article" class="csl-entry">Courtman, M., Thurston, M., McGavin, L., Caroll, C., Sun, L., Ifeachor, E., &#38; Mullin, S. (2022). 095 Artificial Intelligence based detection of Parkinson’s disease in magnetic resonance imaging brain scans. <i>Journal of Neurology, Neurosurgery &#38; Psychiatry</i>, <i>93</i>, e2.45. https://doi.org/10.1136/jnnp-2022-abn2.139</div>
-  </div>
+   ```
+   {% raw %}
+   <your html code>
+   {% endraw %}
    ``` 
 3. Put this piece of code anywhere as you want in the Markdown file.
 
