@@ -15,7 +15,7 @@ nav_order: <position of the lablel in navigation bar>
 ## Add reference
 Given BibTex of articles, one way to add reference is as follows:
 1. Use [BibTex to HTML](https://asouqi.github.io/bibtex-converter/) tool (or any other) to convert BibTex to HTML.
-2. Add `{% raw %}` before the html code and `{% endraw %}` after, as in the following example:
+2. Add `{% raw %}` before the html code and `{% endraw %}` after, as following:
    ```
    {% raw %}
    <your html code>
