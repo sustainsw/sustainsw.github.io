@@ -30,6 +30,7 @@ Markdown is a lightweight markup language that allows you to add formatting elem
 
 
 # Build locally
-1. Instal [Jekyll](https://jekyllrb.com/docs/installation/)
-2. 
+1. Clone the repo to local folder
+2. Install [Jekyll](https://jekyllrb.com/docs/installation/)
+3. Run `jekyll s` in the root directory of the repo
 
