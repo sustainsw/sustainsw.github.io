@@ -8,7 +8,7 @@ nav_order: 2
 <style>
 div.csl-entry::before {
   font-family: FontAwesome;
-  content: '\f02d'; /* fontawesome book */
+  content: '\f02d  '; /* fontawesome book */
 }
 div.csl-entry {
   text-indent: 0.5em;
