@@ -13,4 +13,5 @@ nav_order: 3
 # Hongrui Wang
 
 # Mark Thurston
+[Mark](https://www.plymouth.ac.uk/staff/mark-thurston) is a consultant radiologist with an interest in medical imaging applications of computer vision techniques. He is a member of the National Institute of Health Research (NIHR) imaging group.
 
