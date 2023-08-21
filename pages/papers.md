@@ -10,6 +10,9 @@ div.csl-entry::before {
   font-family: FontAwesome;
   content: '\f02d'; /* fontawesome book */
 }
+div.csl-entry {
+  padding: 0.5em 0;
+}
 </style>
 
 <div class="csl-bib-body">
