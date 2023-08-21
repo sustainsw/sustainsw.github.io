@@ -29,5 +29,7 @@ This is the most straightforward way I found up to now as Github Page limits plu
 Markdown is a lightweight markup language that allows you to add formatting elements to plain text documents. Please see [Basic Syntex](https://www.markdownguide.org/basic-syntax#headings) for basic syntex to get started.
 
 
-
+# Build locally
+1. Instal [Jekyll](https://jekyllrb.com/docs/installation/)
+2. 
 
