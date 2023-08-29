@@ -21,5 +21,7 @@ nav_order: 3
 [Mark](https://www.plymouth.ac.uk/staff/mark-thurston) is a consultant radiologist with an interest in medical imaging applications of computer vision techniques. He has published work on categorisation of X-rays and nuclear medicine scans. He is a member of the National Institute of Health Research (NIHR) imaging group.
 
 ## Hongrui Wang
+![Hongrui Wang](/assets/img/Hongrui_Wang.jpg){:height="360px" width="360px"}
+
 Hongrui is a data scientist with background of mathematics and statistics. He is interested in data management, visulization, analysis and modelling in heathcare and building relavent tools. He helps developing tha lab's data pipeline software for anonymising medical image data in DICOM.
 
