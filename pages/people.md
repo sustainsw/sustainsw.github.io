@@ -23,5 +23,5 @@ nav_order: 3
 ## Hongrui Wang
 ![Hongrui Wang](/assets/img/Hongrui_Wang.jpg){:height="360px" width="360px"}
 
-Hongrui is a data scientist with background of mathematics and statistics. He is interested in data management, visulization, analysis and modelling in heathcare and building relavent tools. He helps developing tha lab's data pipeline software for anonymising medical image data in DICOM.
+Hongrui is a data scientist with background of mathematics and statistics. He is interested in data management, visulization, analysis and modelling for healthcare and development of relavent tools. He helped developing tha lab's data pipeline software for anonymising DICOM image data.
 
