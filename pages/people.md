@@ -6,6 +6,7 @@ nav_order: 3
 
 ## Stephen Mullin
 ![Stephen Mullin](/assets/img/Stephen_Mullin.jpg){:height="360px" width="360px"}
+
 [Stephen](https://www.plymouth.ac.uk/staff/stephen-mullin) is a neurologist and clinical academic with a research interest in Parkinson disease.
 
 ## Megan Courtman
@@ -15,8 +16,10 @@ nav_order: 3
 
 ## Mark Thurston
 ![Mark Thurston](/assets/img/Mark_Thurston.jpg){:height="360px" width="360px"}
+
 [Mark](https://www.plymouth.ac.uk/staff/mark-thurston) is a consultant radiologist with an interest in medical imaging applications of computer vision techniques. He has published work on categorisation of X-rays and nuclear medicine scans. He is a member of the National Institute of Health Research (NIHR) imaging group.
 
 ## Hongrui Wang
 ![Hongrui Wang](/assets/img/Hongrui_Wang.jpg){:height="360px" width="360px"}
+
 Hongrui is a data scientist with background of mathematics and statistics. He is interested in data management, visulization, analysis and modelling for healthcare and development of relavent tools. He helped developing tha lab's data pipeline software for anonymising DICOM image data.
