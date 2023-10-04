@@ -1,6 +1,6 @@
 ---
-title: Papers
-nav: Papers
+title: Publications
+nav: Publications
 nav_order: 2
 ---
 
