@@ -19,6 +19,11 @@ nav_order: 3
 
 [Mark](https://www.plymouth.ac.uk/staff/mark-thurston) is a consultant radiologist with an interest in medical imaging applications of computer vision techniques. He has published work on categorisation of X-rays and nuclear medicine scans. He is a member of the National Institute of Health Research (NIHR) imaging group.
 
+## Ellie Edlmann
+![Ellie Edlmann](/assets/img/Ellie_Edlmann.jpg){:height="360px" width="360px"}
+
+Dr Ellie Edlmann, FRCS Neurosurgery, PhD. She is a clinical lecturer in Neurosurgery with an academic interest in clinical trials, traumatic brain injury and chronic subdural haematoma. Her clinical focus is neuro-oncology and trauma/head injury management. 
+
 ## Hongrui Wang
 ![Hongrui Wang](/assets/img/Hongrui_Wang.jpg){:height="360px" width="360px"}
 
