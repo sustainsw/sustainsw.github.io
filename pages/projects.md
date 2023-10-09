@@ -5,9 +5,7 @@ nav_order: 1
 ---
 
 ### Parkinson's disease
-
-<br/>
-
+Prospective neuroprotective treatments for PD are highlighting the need for early diagnostic tests. MRI is not currently considered a robust imaging test for PD, but exploratory techniques have suggested that dedicated experimental sequences may be able to detect early pathological brain changes. We explored whether such changes might be detectable in routine MRI scans by employing deep learning (DL) methods. This subset of machine learning has recently shown great promise in diagnostic medical imaging, with its potential to detect patterns invisible to the human eye. Emerging explainability methods are allowing DL predictions to be better interpreted.
 {% raw %}
    <a href="/pages/test.html">
       <img alt="Parkinson's disease" src="/assets/img/project_pd.png" width="1050" height="300">
