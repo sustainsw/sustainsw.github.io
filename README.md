@@ -34,3 +34,5 @@ Markdown is a lightweight markup language that allows you to add formatting elem
 2. Install [Jekyll](https://jekyllrb.com/docs/installation/)
 3. Run `jekyll s` in the root directory of the repo
 
+# This template
+If you would like to know more about this template, please see the [tutorial](https://evanwill.github.io/go-go-ghpages-b/).
