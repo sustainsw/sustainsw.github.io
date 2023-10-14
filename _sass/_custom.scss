@@ -25,3 +25,14 @@
 .container-layout {
     width: 80%;
 }
+
+/*for the news section*/
+.blog-row {
+    border: 1px solid #ccc;
+    /* Add an outline or border */
+    padding: 15px;
+    margin-bottom: 20px;
+    /* Add space between rows */
+    display: flex;
+    /* Add space between rows */
+}
