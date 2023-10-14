@@ -36,3 +36,9 @@
     display: flex;
     /* Add space between rows */
 }
+
+/*remove the margins for news*/
+.custom-container {
+    padding: 0;
+    margin: 0;
+}

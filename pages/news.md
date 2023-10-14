@@ -4,16 +4,15 @@ title: News
 nav: News
 nav_order: 1
 ---
-
-<div class="container">
+<div class="container custom-container">
     {% for post in site.posts %}
     <div class="blog-row">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="blog-block">
-                <img src="{{ post.thumbnail }}" style="height: 225px; width: 100%; display: block;" class="img-fluid">
+                <img src="{{ post.thumbnail }}" style="height: 250px; width: 250px; display: block;" class="img-fluid">
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-9">
             <div class="blog-block">
                 <h2>{{ post.title }}</h2>
                 <p>
@@ -24,7 +23,7 @@ nav_order: 1
                 <div class="btn-group">
                     <a class="btn btn-sm btn-outline-secondary" href="{{post.url}}" role="button">Read More</a>
                 </div>
-                <small class="text-muted">{{post.reading_time}}</small>
+                <small class="text-muted">{{ post.date | date: "%b %d, %Y" }}</small>
             </div>
         </div>
     </div>
