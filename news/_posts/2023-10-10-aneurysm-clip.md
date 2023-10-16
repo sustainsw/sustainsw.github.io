@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: news
+author: unknown author
 title: New publication on aneurysm clip
 thumbnail: /assets/img/news_thumbnail_aneurysm_cxr.png
 excerpt_separator: <!--more-->
-reading_time: 9 min
 ---
 
 

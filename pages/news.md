@@ -6,6 +6,7 @@ nav_order: 1
 ---
 <div class="container custom-container">
     {% for post in site.posts %}
+      {% if post.categories contains 'news' %}
     <div class="blog-row">
         <div class="col-md-3">
             <div class="blog-block">
@@ -27,5 +28,6 @@ nav_order: 1
             </div>
         </div>
     </div>
+      {% endif %}
     {% endfor %}
 </div>

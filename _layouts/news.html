@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<div>
+    <div class="text-muted">
+        <span>Written by: {{ page.author }}</span>
+        <span>{{ page.date | date: "%b %d, %Y" }}</span>
+        <div class="tag-group">
+            {% for tag in page.tags %}
+            <div class="tag">
+                <span class="tag-text">
+                    <a href="#">{{ tag }}</a>
+                </span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{{ content }}
