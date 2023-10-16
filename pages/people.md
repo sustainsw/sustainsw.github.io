@@ -3,28 +3,89 @@ title: People
 nav: People
 nav_order: 3
 ---
+## Team members
 
-## Stephen Mullin
-![Stephen Mullin](/assets/img/Stephen_Mullin.jpg){:height="360px" width="360px"}
+<div class="container custom-container">
+    <div class="row">
+        <div class="col-sm-6 top-buffer">
+            <div class="card pt-1" style="width: 350px">
+                <img class="card-img-top" src="/assets/img/Stephen_Mullin.jpg"
+                    style="height: 350px; width: 350px; display: block;" class="img-fluid">
+                <div class="card-body pt-1">
+                    <h4 class="card-title">Stephen Mullin</h4>
+                    <p class="card-text">
+                        <a href="https://www.plymouth.ac.uk/staff/stephen-mullin">Stephen</a> is a neurologist and
+                        clinical academic with a research interest in Parkinson disease.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 top-buffer">
+            <div class="card pt-1" style="width: 350px">
+                <img class="card-img-top" src="/assets/img/Mark_Thurston.jpg"
+                    style="height: 350px; width: 350px; display: block;" class="img-fluid">
+                <div class="card-body pt-1">
+                    <h4 class="card-title">Mark Thurston</h4>
+                    <p class="card-text">
+                        <a href="https://www.plymouth.ac.uk/staff/mark-thurston">Mark</a> is a consultant radiologist with an interest in medical imaging applications of computer vision techniques. He has published work on categorisation of X-rays and nuclear medicine scans. He is a member of the National Institute of Health Research (NIHR) imaging group.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 top-buffer">
+            <div class="card pt-1" style="width: 350px">
+                <img class="card-img-top" src="/assets/img/Megan_Courtman.jpg"
+                    style="height: 350px; width: 350px; display: block;" class="img-fluid">
+                <div class="card-body pt-1">
+                    <h4 class="card-title">Megan Courtman</h4>
+                    <p class="card-text">
+                        <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan</a> is a data scientist
+                        interested in using explainable AI to solve problems in healthcare. Her ongoing PhD research
+                        focuses on applying machine learning to medical imaging. She has built deep learning models to
+                        differentiate between Parkinson's and control MRI brain scans with high accuracy. She has also
+                        worked on computer vision models for medical safety applications and natural language processing
+                        models for radiology research dataset curation. Her work has won the <a
+                            href="https://www.theabn.org/">Association of British Neurologists</a> prize for best poster
+                        and the University of Plymouth (<a
+                            href="https://www.plymouth.ac.uk/student-life/your-studies/research-degrees/doctoral-college/researcher-development-programme/three-minute-thesis-competition">Three
+                            Minute Thesis competition</a>).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 top-buffer">
+            <div class="card pt-1" style="width: 350px">
+                <img class="card-img-top" src="/assets/img/Hongrui_Wang.jpg"
+                    style="height: 350px; width: 350px; display: block;" class="img-fluid">
+                <div class="card-body pt-1">
+                    <h4 class="card-title">Hongrui Wang</h4>
+                    <p class="card-text">
+                    Hongrui is a data scientist with background of mathematics and statistics. He is interested in data management, visulization, analysis and modelling for healthcare and development of relavent tools. He helped developing tha lab's data pipeline software for anonymising DICOM image data.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-[Stephen](https://www.plymouth.ac.uk/staff/stephen-mullin) is a neurologist and clinical academic with a research interest in Parkinson disease.
+<br>
 
-## Megan Courtman
-![Megan Courtman](/assets/img/Megan_Courtman.jpg){:height="360px" width="360px"}
+## Collaborators
 
-[Megan](https://www.plymouth.ac.uk/staff/megan-courtman) is a data scientist interested in using explainable AI to solve problems in healthcare. Her ongoing PhD research focuses on applying machine learning to medical imaging. She has built deep learning models to differentiate between Parkinson's and control MRI brain scans with high accuracy. She has also worked on computer vision models for medical safety applications and natural language processing models for radiology research dataset curation. Her work has won the [Association of British Neurologists](https://www.theabn.org/) prize for best poster and the University of Plymouth [Three Minute Thesis competition](https://www.plymouth.ac.uk/student-life/your-studies/research-degrees/doctoral-college/researcher-development-programme/three-minute-thesis-competition). 
+<div class="container custom-container">
+    <div class="row">
+        <div class="col-sm-6 top-buffer">
+            <div class="card pt-1" style="width: 350px">
+                <img class="card-img-top" src="/assets/img/Ellie_Edlmann.jpg"
+                    style="height: 350px; width: 350px; display: block;" class="img-fluid">
+                <div class="card-body pt-1">
+                    <h4 class="card-title">Ellie Edlmann</h4>
+                    <p class="card-text">
+                    Dr Ellie Edlmann, FRCS Neurosurgery, PhD. She is a clinical lecturer in Neurosurgery with an academic interest in clinical trials, traumatic brain injury and chronic subdural haematoma. Her clinical focus is neuro-oncology and trauma/head injury management. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-## Mark Thurston
-![Mark Thurston](/assets/img/Mark_Thurston.jpg){:height="360px" width="360px"}
-
-[Mark](https://www.plymouth.ac.uk/staff/mark-thurston) is a consultant radiologist with an interest in medical imaging applications of computer vision techniques. He has published work on categorisation of X-rays and nuclear medicine scans. He is a member of the National Institute of Health Research (NIHR) imaging group.
-
-## Ellie Edlmann
-![Ellie Edlmann](/assets/img/Ellie_Edlmann.jpg){:height="360px" width="360px"}
-
-Dr Ellie Edlmann, FRCS Neurosurgery, PhD. She is a clinical lecturer in Neurosurgery with an academic interest in clinical trials, traumatic brain injury and chronic subdural haematoma. Her clinical focus is neuro-oncology and trauma/head injury management. 
-
-## Hongrui Wang
-![Hongrui Wang](/assets/img/Hongrui_Wang.jpg){:height="360px" width="360px"}
-
-Hongrui is a data scientist with background of mathematics and statistics. He is interested in data management, visulization, analysis and modelling for healthcare and development of relavent tools. He helped developing tha lab's data pipeline software for anonymising DICOM image data.
