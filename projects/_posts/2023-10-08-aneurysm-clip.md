@@ -22,3 +22,7 @@ models. Models were also trained from scratch to classify three-dimensional CT h
 scans. These did not exceed the accuracy of the localizer models. This work illustrates
 an application of computer vision image classification to enhance current processes
 and improve patient safety.
+
+
+
+
