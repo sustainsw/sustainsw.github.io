@@ -13,7 +13,7 @@ including the following information:
     - Parkinson's disease
     - CES
     - Aneurysm Clip
-    - All of them
+    - All of above
 - Forename:
 - Surname:
 - Date of birth:

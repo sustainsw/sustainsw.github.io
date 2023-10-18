@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Aneurysm Clip
+thumbnail_title: Aneurysm Clip
 thumbnail: /assets/img/projects_thumbnail_aneurysm_cxr.png
 brief: a brief intro to the project
 ---
