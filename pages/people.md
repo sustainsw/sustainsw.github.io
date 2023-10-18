@@ -21,6 +21,12 @@ nav_order: 3
         {% include person.html name="Stephen Mullin" image="/assets/img/Stephen_Mullin.jpg" 
         introduction=intro_stephen_mullin %}
 
+        {% capture intro_marie_jasim %}
+            Dr Jasim is an NIHR Research Associate and an Undergraduate Clinical Teaching Fellow at Torbay Hospital.  As an Early Career Researcher she is involved in various local and national neurology studies. Her primary study interest is Functional Neurological Disorders and improving access to healthcare services for this patient cohort.
+        {% endcapture %}
+        {% include person.html name="Marie Jasim" image="/assets/img/blank_profile.png"
+        introduction=intro_marie_jasim %}
+
         {% capture intro_megan_courtman %}
             <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan</a> is a data scientist
             interested in using explainable AI to solve problems in healthcare. Her ongoing PhD research
@@ -41,15 +47,29 @@ nav_order: 3
         {% endcapture %}
         {% include person.html name="Hongrui Wang" image="/assets/img/Hongrui_Wang.jpg"
         introduction=intro_hongrui_wang %}
+
+
+
     </div>
+
+
 </div>
 
 <br>
 
 ## Key collaborators
 
+
+
 <div class="container custom-container">
     <div class="row">
+        {% capture intro_michael_allen %}
+            I am a Senior Research Fellow in Applied Healthcare Modelling and Data Science in the University of Exeter Medical School. After nearly 20 years in Pharma R&D Drug Discovery, I switched to academia to focus on research that maximises NHS benefits from new treatments. I have had a life-long interest in combining biomedical and computer sciences, and think we're now living in the age that I so looked forward to - where computer science ('AI') is matching biomedical science in what it can offer to medicine.
+
+            Currently I work mostly in looking at variation in healthcare between hospitals, looking at what different hospitals do differently, and how that affects patient outcomes. I use modelling and AI to ask the question "What would happen if my patient went to another hospital? What would they do, and what would the patient outcome be?"
+        {% endcapture %}
+        {% include person.html name="Michael Allen" image="/assets/img/blank_profile.png"
+        introduction=intro_michael_allen %}
 
         {% capture intro_ellie_edlmann %}
                     Dr Ellie Edlmann, FRCS Neurosurgery, PhD. She is a clinical lecturer in Neurosurgery with an academic interest in clinical trials, traumatic brain injury and chronic subdural haematoma. Her clinical focus is neuro-oncology and trauma/head injury management. 
