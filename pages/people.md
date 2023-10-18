@@ -3,7 +3,7 @@ title: People
 nav: People
 nav_order: 3
 ---
-## Team members
+## Research team
 
 <div class="container custom-container">
     <div class="row">
@@ -46,7 +46,7 @@ nav_order: 3
 
 <br>
 
-## Collaborators
+## Key collaborators
 
 <div class="container custom-container">
     <div class="row">
