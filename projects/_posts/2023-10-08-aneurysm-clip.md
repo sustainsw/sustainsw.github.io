@@ -24,5 +24,7 @@ an application of computer vision image classification to enhance current proces
 and improve patient safety.
 
 
-
+<a href="{% link pages/optout.md%}">
+ <button type="button" class="btn btn-primary btn-lg btn-block">Click to Opt Out</button> 
+</a>
 
