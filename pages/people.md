@@ -20,7 +20,7 @@ nav_order: 3
         {% include person.html name="Mark Thurston" image="/assets/img/Mark_Thurston.jpg" introduction=intro_mark_thurston %}
 
         {% capture intro_stephen_mullin %}
-        Dr Mullin is Associate Professor of Neurology at the <a
+        Dr Stephen Mullin is Associate Professor of Neurology at the <a
         href="https://www.plymouth.ac.uk/staff/stephen-mullin">University of
         Plymouth (UoP)</a> and Consultant Neurologist at <a
         href="https://www.plymouthhospitals.nhs.uk/neurology">University
@@ -110,34 +110,32 @@ nav_order: 3
 
 
         {% capture intro_michael_ogara %}
-            Dr O'Gara is a Neurology consultant at University Hospitals
-            Plymouth. He has specialist interests in Acute Neurology and
-            Functional Neurological Disorders (FND). He runs a specialist
-            clinic in FND, serving patients from around the Southwest. 
+        Dr O'Gara is a Neurology consultant at University Hospitals Plymouth.
+        He has specialist interests in Acute Neurology and Functional
+        Neurological Disorders (FND). He runs a specialist clinic in FND,
+        serving patients from around the Southwest. 
         {% endcapture %}
-        {% include person.html name="Michael Ogara" image="/assets/img/blank_profile.png"
+        {% include person.html name="Michael O'Gara" image="/assets/img/blank_profile.png"
         introduction=intro_michael_ogara %}
 
 
         {% capture intro_damjan_veljanoski %}
-        Mr Damjan Veljanoski AFHEA BSc (Hons) MBBS MRCS. Mr Damjan Veljanoski
-        is an NIHR Academic Clinical Fellow at the University of Plymouth and
-        Specialty Trainee (NTN) in Neurosurgery at the South West Neurosurgery
-        Centre in  Derriford Hospital. He is developing a radiomics pipeline
-        that applies machine learning and artificial intelligence to the
-        pre-operative MRI scans of patients with brain tumours with the aim of
-        predicting the biological tumour characteristics. This has the
-        potential to risk-stratify patients and guide treatment planning, such
-        as the timing of their surgery and predicting prognosis or recurrence.
-        He has completed an MSc module in Advanced Machine Learning and has
-        attended a leading, international radiomics workshop. He is
+        Mr Damjan Veljanoski AFHEA BSc (Hons) MBBS MRCS is an NIHR Academic
+        Clinical Fellow at the University of Plymouth and Specialty Trainee
+        (NTN) in Neurosurgery at the South West Neurosurgery Centre in
+        Plymouth. He is developing a radiomics pipeline that applies machine
+        learning techniques to the pre-operative MRI scans of patients with
+        brain tumours. Predict the biological tumour characteristics from
+        imaging has the potential to risk-stratify patients and guide treatment
+        decisions. He has completed an MSc module in Advanced Machine Learning
+        and has attended a leading, international radiomics workshop. He is
         enthusiastic to foster research collaborations.
         {% endcapture %}
         {% include person.html name="Damjan Veljanoski" image="/assets/img/Damjan_Veljanoski.jpg"
         introduction=intro_damjan_veljanoski %}
 
         {% capture intro_ellie_edlmann %}
-        Dr Ellie Edlmann, FRCS Neurosurgery, PhD. She is a clinical lecturer in
+        Dr Ellie Edlmann, FRCS Neurosurgery, PhD is a clinical lecturer in
         Neurosurgery with an academic interest in clinical trials, traumatic
         brain injury and chronic subdural haematoma. Her clinical focus is
         neuro-oncology and trauma/head injury management. 
