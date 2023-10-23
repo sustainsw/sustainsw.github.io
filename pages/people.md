@@ -68,8 +68,24 @@ nav_order: 3
 
             Currently I work mostly in looking at variation in healthcare between hospitals, looking at what different hospitals do differently, and how that affects patient outcomes. I use modelling and AI to ask the question "What would happen if my patient went to another hospital? What would they do, and what would the patient outcome be?"
         {% endcapture %}
-        {% include person.html name="Michael Allen" image="/assets/img/blank_profile.png"
+        {% include person.html name="Michael Allen" image="/assets/img/Michael_Allen.jpg"
         introduction=intro_michael_allen %}
+
+
+        {% capture intro_michael_ogara %}
+            Dr O'Gara is a Neurology consultant at University Hospitals Plymouth. He has specialist interests in Acute Neurology and Functional Neurological Disorders (FND). He runs a specialist clinic in FND, serving patients from around the Southwest. 
+        {% endcapture %}
+        {% include person.html name="Michael Ogara" image="/assets/img/blank_profile.png"
+        introduction=intro_michael_ogara %}
+
+        {% capture intro_damjan_veljanoski %}
+             Mr Damjan Veljanoski AFHEA BSc (Hons) MBBS MRCS. Mr Damjan Veljanoski is an NIHR Academic Clinical Fellow at the University of Plymouth and Specialty Trainee (NTN) in Neurosurgery at the South West Neurosurgery Centre in  Derriford Hospital. He is developing a radiomics pipeline that applies machine learning and artificial intelligence to the pre-operative MRI scans of patients with brain tumours with the aim of predicting the biological tumour characteristics. This has the potential to risk-stratify patients and guide treatment planning, such as the timing of their surgery and predicting prognosis or recurrence. He has completed an MSc module in Advanced Machine Learning and has attended a leading, international radiomics workshop. He is enthusiastic to foster research collaborations. <br>
+             Email: damjan.veljanoski@plymouth.ac.uk <br>
+             Twitter: @dveljanoski <br>
+             LinkedIn: damjan-veljanoski
+        {% endcapture %}
+        {% include person.html name="Damjan Veljanoski" image="/assets/img/Damjan_Veljanoski.jpg"
+        introduction=intro_damjan_veljanoski %}
 
         {% capture intro_ellie_edlmann %}
                     Dr Ellie Edlmann, FRCS Neurosurgery, PhD. She is a clinical lecturer in Neurosurgery with an academic interest in clinical trials, traumatic brain injury and chronic subdural haematoma. Her clinical focus is neuro-oncology and trauma/head injury management. 

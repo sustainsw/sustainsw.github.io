@@ -6,12 +6,12 @@ title: Opt out
 
 
 
-To opt out please email **example@nhs.net**
-including the following information:
+To opt out please email **plh-tr.researchdataoptout@nhs.net**
+and include the following information:
 - I want to opt out of (choose one or some of the following studies): 
     - Stroke
     - Parkinson's disease
-    - CES
+    - Cauda Equina Syndrome
     - Aneurysm Clip
     - All of above
 - Forename:
