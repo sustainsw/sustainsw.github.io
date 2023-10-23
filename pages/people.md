@@ -9,7 +9,9 @@ nav_order: 3
     <div class="row">
         {% capture intro_mark_thurston %}
         <a href="https://www.plymouth.ac.uk/staff/mark-thurston">Dr Mark
-        Thurston</a> is a consultant radiologist with an interest in medical
+        Thurston</a> is a consultant musculoskeletal radiologist at University
+        Hospitals Plymouth NHS Trust and Honorary Clinical Lecturer at
+        University of Plymouth. His research interests focus on the medical
         imaging applications of computer vision techniques. He has published
         numerous peer-reviewed publications on categorisation of medical
         imaging investigations including CT, X-rays and nuclear medicine scans.
