@@ -30,10 +30,10 @@ excerpt_separator: <!--more-->
  - Only author, title, and thumbnail needs configuration. 
  - It's recommended to resize/crop the thumbnail image to 640x640 pixels.
  - `excerpt_separator` allows showing a part of the news content (excerpt) in the news card. Use `<!--more-->` to separate out the excerpt (the text before it will be excerpt).
- - It's easier to copy the code in previous news and edit based on it.
+ - It's easier to copy the code in previous news file and edit based on it.
 
-## add projects
-Similar to adding news, create a new file in folder `projects/_posts` with name format `yyyy-mm-dd-<name>.md` eg `2023-10-08-aneurysm-clip.md`. The date can be used to arrange the order of the project cards in the Projects page, it doesn't matter which exactly date chosen. 
+## Add projects
+Similar to adding news, create a new file in folder `projects/_posts` with name format `yyyy-mm-dd-<name>.md` eg `2023-10-08-stroke.md`. The date can be used to arrange the order of the project cards in the Projects page, it doesn't matter which exactly date chosen. 
 
 The file should contain the following header:
 ```
@@ -47,7 +47,7 @@ brief: <a brief introduction to the project, which will be shown in the project 
 ```
  - Only title, thumbnail_title, thumbnail and brief needs configuration. 
  - It's recommended to resize/crop the thumbnail image to 640x640 pixels.
- - It's easier to copy the code in previous news and edit based on it.
+ - It's easier to copy the code in previous project file and edit based on it.
 
 ## Add reference
 Given BibTex of articles, one way to add reference is as follows:
