@@ -57,14 +57,10 @@ nav_order: 3
         introduction=intro_marie_jasim %}
 
         {% capture intro_megan_courtman %}
-        <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan</a> is
+        <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan Courtman</a> is
         a data scientist interested in using explainable AI to solve problems
-        in healthcare. Her ongoing PhD research focuses on applying machine
-        learning to medical imaging. She has built deep learning models to
-        differentiate between Parkinson's and control MRI brain scans with high
-        accuracy. She has worked on computer vision models for medical safety
-        applications and natural language processing models for radiology
-        research dataset curation. Her work has won the <a
+        in healthcare. Much of her work focuses on building computer vision 
+        models for medical imaging classification. She has won the <a
         href="https://www.theabn.org/">Association of British Neurologists</a>
         prize for best poster and the UoP <a
         href="https://www.plymouth.ac.uk/student-life/your-studies/research-degrees/doctoral-college/researcher-development-programme/three-minute-thesis-competition">Three
