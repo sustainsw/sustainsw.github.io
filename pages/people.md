@@ -56,6 +56,19 @@ nav_order: 3
         {% include person.html name="Marie Jasim" image="/assets/img/blank_profile.png"
         introduction=intro_marie_jasim %}
 
+
+        {% capture intro_hongrui_wang %}
+        Dr Hongrui Wang PhD is a data scientist with background of mathematics
+        and statistics. He is a skilled software engineer. He is particularly
+        interested in data management, visulization, analysis and modelling for
+        healthcare and development of relevent tools. He has been instrumental
+        in developing the data pipeline software for anonymising DICOM image
+        data.
+        {% endcapture %}
+        {% include person.html name="Hongrui Wang" image="/assets/img/Hongrui_Wang.jpg"
+        introduction=intro_hongrui_wang %}
+
+
         {% capture intro_megan_courtman %}
         <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan Courtman</a> is
         a data scientist interested in using explainable AI to solve problems
@@ -69,16 +82,14 @@ nav_order: 3
         {% include person.html name="Megan Courtman" image="/assets/img/Megan_Courtman.jpg"
         introduction=intro_megan_courtman %}
 
-        {% capture intro_hongrui_wang %}
-        Dr Hongrui Wang PhD is a data scientist with background of mathematics
-        and statistics. He is a skilled software engineer. He is particularly
-        interested in data management, visulization, analysis and modelling for
-        healthcare and development of relevent tools. He has been instrumental
-        in developing the data pipeline software for anonymising DICOM image
-        data.
+        {% capture intro_galaleldin_abdelhalim %}
+        Dr Abdelhalim is a Clinical Radiology Speciality Trainee at University Hospitals Plymouth NHS Trust. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to 
+        <a
+        href="https://pubmed.ncbi.nlm.nih.gov/37005205/">evidence-based practice in interventional radiology</a>.
         {% endcapture %}
-        {% include person.html name="Hongrui Wang" image="/assets/img/Hongrui_Wang.jpg"
-        introduction=intro_hongrui_wang %}
+        {% include person.html name="Galaleldin Abdelhalim" image="/assets/img/blank_profile.png"
+        introduction=intro_galaleldin_abdelhalim %}
+
 
     </div>
 </div>
