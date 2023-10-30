@@ -73,3 +73,9 @@ Markdown is a lightweight markup language that allows you to add formatting elem
 
 # This template
 If you would like to know more about this template, please see the [tutorial](https://evanwill.github.io/go-go-ghpages-b/).
+
+# Useful things
+## Useful commands
+### padding images
+convert filename -gravity center -background "rgb(255,255,255)" -extent 640x640 filename 
+

@@ -49,11 +49,11 @@ nav_order: 3
         Clinical Teaching Fellow at <a
         href="https://www.torbayandsouthdevon.nhs.uk/visiting-us/torbay-hospital/">Torbay
         Hospital</a>. As an Early Career Researcher, she is involved in various
-        local and national neurology studies. Her primary research interest are
-        focused on Functional Neurological Disorders and improving access to
+        local and national neurology studies. Her primary research interest is
+         focused on Functional Neurological Disorders and improving access to
         healthcare services for this patient cohort.
         {% endcapture %}
-        {% include person.html name="Marie Jasim" image="/assets/img/blank_profile.png"
+        {% include person.html name="Marie Jasim" image="/assets/img/Marie_Jasim.jpg"
         introduction=intro_marie_jasim %}
 
 
