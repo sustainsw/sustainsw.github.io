@@ -56,6 +56,12 @@ nav_order: 3
         {% include person.html name="Marie Jasim" image="/assets/img/Marie_Jasim.jpg"
         introduction=intro_marie_jasim %}
 
+        {% capture intro_aishwarya_kasabe %}
+Aishwarya is a dedicated Data Scientist and a PhD student at the University of Plymouth, where she passionately delves into the world of medical studies. Her ongoing research journey is centered around the crucial realm of future stroke prediction and prevention, leveraging the power of Explainable Artificial Intelligence applied to routine data. With a strong commitment to harnessing the potential of AI and Machine Learning, her research interests align with the profound impact these technologies can have on medical analysis and healthcare, ultimately striving to make a meaningful contribution to society's well-being.
+        {% endcapture %}
+        {% include person.html name="Aishwarya Kasabe" image="/assets/img/Aishwarya_Kasabe.jpg"
+        introduction=intro_aishwarya_kasabe %}
+
 
         {% capture intro_hongrui_wang %}
         Dr Hongrui Wang PhD is a data scientist with background of mathematics
