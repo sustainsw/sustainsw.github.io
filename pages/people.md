@@ -93,7 +93,7 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
         <a
         href="https://pubmed.ncbi.nlm.nih.gov/37005205/">evidence-based practice in interventional radiology</a>.
         {% endcapture %}
-        {% include person.html name="Galaleldin Abdelhalim" image="/assets/img/blank_profile.png"
+        {% include person.html name="Galaleldin Abdelhalim" image="/assets/img/Galaleldin_Abdelhalim.jpg"
         introduction=intro_galaleldin_abdelhalim %}
 
 
