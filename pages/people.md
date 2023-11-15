@@ -44,6 +44,14 @@ nav_order: 3
         {% include person.html name="Stephen Mullin" image="/assets/img/Stephen_Mullin.jpg" 
         introduction=intro_stephen_mullin %}
 
+        {% capture intro_william_heseltine_carp%}
+        Dr William Heseltine-Carp is an NIHR Academic Clinical Fellow in neurology at University Hospitals Plymouth NHS trust (UHPNT). His previous research has focused on the roles of neuro-inflammation in functional neurological disorders. His work now focuses on a UKRI MRC approved project in using machine learning to predict the future risk of stroke, from routinely collected hospital data. 
+        {% endcapture %}
+        {% include person.html name="William Heseltine-Carp" image="/assets/img/William Heseltine-Carp.jpg"
+        introduction=intro_william_heseltine_carp %}
+
+
+
         {% capture intro_marie_jasim %}
         Dr Marie Jasim is an NIHR Research Associate and an Undergraduate
         Clinical Teaching Fellow at <a
