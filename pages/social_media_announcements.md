@@ -1,7 +1,7 @@
 ---
 layout: page
-title: News
-nav: News
+title: Social media and announcements
+nav: Social media and announcements
 nav_order: 1
 ---
 <div class="container custom-container">
