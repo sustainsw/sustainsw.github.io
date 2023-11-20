@@ -1,36 +1,82 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+<div class="container bg-dark text-light text-center">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav mr-auto">
-                {% assign nav_pages = site.html_pages | where_exp: 'p','p.nav' | sort: 'nav_order' %}
-                {% for p in nav_pages %}
-                <li class="nav-item{% if page.url == p.url %} active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{% if p.nav == true %}{{ p.title }}{% else %}{{ p.nav }}{% endif %}</a>
-                </li>
-                {% endfor %}
-            </ul>
-            {% if site.search == true %}
-            <script>
-                function site_search() {
-                    var query = document.getElementById("site-search").value;
-                    window.open("{{ '/search.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
-                    }
-            </script>
-            <form class="form-inline my-2 my-lg-0" onsubmit="site_search(); return false;">
-                <div class="input-group">
-                    <input id="site-search" class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="submit">{% include icon.html icon="search" label="Submit Search" %}</button>
-                    </div>
-                </div>
-            </form>
-            {% endif %}
-        </div>
+    <div class="container bg-dark text-light text-center">
+        <h1>{{ site.title }}</h1>
     </div>
-</nav>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex flex-column flex-md-row align-items-center" href="{{ '/' | relative_url }}">
+                <div class="text-center text-md-left mr-md-3 brand-text">
+                    <p class="mb-0">Southwest Care AI</p>
+                    <p class="mb-0">Your Data, Better Health</p>
+                </div>
+                <img src="{{ '/assets/img/logo.png' | relative_url }}" height="30" class="d-inline-block align-top"
+                    alt="{{ site.title }}">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                {% assign unique_parents = "" | split: "" %}
+
+                {% for page in site.html_pages %}
+                {% if page.parent %}
+                {% unless unique_parents contains page.parent %}
+                {% assign unique_parents = unique_parents | push: page.parent %}
+                {% endunless %}
+                {% endif %}
+                {% endfor %}
+
+                <ul class="navbar-nav mr-auto">
+                    {% for parent in unique_parents %}
+                    {% assign pages = site.html_pages | where: "parent", parent %}
+                    {% if pages.size > 1 %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ parent }}
+                        </a>
+                        <div class="dropdown-menu  bg-dark" aria-labelledby="navbarDropdown">
+                            {% for page in pages %}
+                            <a class="dropdown-item  text-light" href="{{ page.url | relative_url }}">{{ page.nav }}</a>
+                            {% endfor %}
+                        </div>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ pages[0].url | relative_url }}">{{ pages[0].nav }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+
+
+                {% if site.search == true %}
+                <script>
+                    function site_search() {
+                        var query = document.getElementById("site-search").value;
+                        window.open("{{ '/search.html' | relative_url }}?q=" + encodeURIComponent(query), "_self");
+                    }
+                </script>
+                <form class="form-inline my-2 my-lg-0" onsubmit="site_search(); return false;">
+                    <div class="input-group">
+                        <input id="site-search" class="form-control" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-primary" type="submit">{% include icon.html icon="search"
+                                label="Submit Search" %}</button>
+                        </div>
+                    </div>
+                </form>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+
+</div>

@@ -1,6 +1,7 @@
 ---
 title: Your Data
 nav: Your Data
+parent: Research
 nav_order: 4
 layout: page
 ---

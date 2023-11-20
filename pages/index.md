@@ -1,6 +1,7 @@
 ---
 title: Home
 nav: Home
+parent: Home
 nav_order: 0
 layout: page
 ---

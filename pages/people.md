@@ -1,5 +1,6 @@
 ---
 title: People
+parent: Team
 nav: People
 nav_order: 3
 ---

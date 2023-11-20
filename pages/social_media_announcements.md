@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Social media and announcements
+parent: News
 nav: Social media and announcements
 nav_order: 1
 ---

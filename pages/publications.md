@@ -1,5 +1,6 @@
 ---
 title: Publications
+parent: Team
 nav: Publications
 nav_order: 2
 ---

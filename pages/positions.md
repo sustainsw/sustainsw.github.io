@@ -1,5 +1,6 @@
 ---
 title: Positions
+parent: News
 nav: Positions
 nav_order: 5
 ---
