@@ -27,7 +27,6 @@ title: temp_logo
 ![image tooltip here](/assets/temp_img/radiology style 2.png){:height="400px" width="400px"}
 ![image tooltip here](/assets/temp_img/radiology.png){:height="400px" width="400px"}
 ![image tooltip here](/assets/temp_img/radiology 11.png){:height="400px" width="400px"}
-![image tooltip here](/assets/temp_img/radiology 12.png){:height="400px" width="400px"}
 
 
 
