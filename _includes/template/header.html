@@ -1,20 +1,18 @@
-<div class="container bg-dark text-light text-center">
-
-    <div class="container bg-dark text-light text-center">
-        <h1>{{ site.title }}</h1>
-    </div>
+<div class="container bg-dark navbar-text-color text-center">
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-text-color">
+        <div class="container ">
             <a class="navbar-brand d-flex flex-column flex-md-row align-items-center" href="{{ '/' | relative_url }}">
-                <div class="text-center text-md-left mr-md-3 brand-text">
-                    <p class="mb-0">Southwest Care AI</p>
-                    <p class="mb-0">Your Data, Better Health</p>
-                </div>
                 <img src="{{ '/assets/img/logo.png' | relative_url }}" height="30" class="d-inline-block align-top"
                     alt="{{ site.title }}">
+                <div class="text-center text-md-left mr-md-3 logo-text-color">
+                    <p class="mb-0 h2">SW CareAI</p>
+                    <p class="mt-n2 mb-0 small">Your Data, Better Health</p>
+                </div>
+
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,20 +35,22 @@
                     {% for parent in unique_parents %}
                     {% assign pages = site.html_pages | where: "parent", parent %}
                     {% if pages.size > 1 %}
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <li class="nav-item dropdown my-dropdown-color">
+                        <a class="nav-link dropdown-toggle my-dropdown-color" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             {{ parent }}
                         </a>
-                        <div class="dropdown-menu  bg-dark" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu bg-dark my-dropdown-color" aria-labelledby="navbarDropdown">
                             {% for page in pages %}
-                            <a class="dropdown-item  text-light" href="{{ page.url | relative_url }}">{{ page.nav }}</a>
+                            <a class="dropdown-item my-dropdown-color" href="{{ page.url | relative_url }}">{{ page.nav
+                                }}</a>
                             {% endfor %}
                         </div>
                     </li>
                     {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ pages[0].url | relative_url }}">{{ pages[0].nav }}</a>
+                    <li class="nav-item my-dropdown-color">
+                        <a class="nav-link my-dropdown-color" href="{{ pages[0].url | relative_url }}">{{ pages[0].nav
+                            }}</a>
                     </li>
                     {% endif %}
                     {% endfor %}
