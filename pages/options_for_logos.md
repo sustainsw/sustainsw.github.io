@@ -141,6 +141,7 @@ title: temp_logo
 ![image tooltip here](/assets/temp_img/chinese - 1.png){:height="400px" width="400px"}
 ![image tooltip here](/assets/temp_img/indian - 2.png){:height="400px" width="400px"}
 ![image tooltip here](/assets/temp_img/lesslikely1.png){:height="400px" width="400px"}
+![image tooltip here](/assets/temp_img/pirate.png){:height="400px" width="400px"}
 
 
 
