@@ -42,21 +42,23 @@
                     {% for parent in unique_parents %}
                     {% assign pages = site.html_pages | where: "parent", parent %}
                     {% if pages.size > 1 %}
-                    <li class="nav-item dropdown my-dropdown-color">
-                        <a class="nav-link dropdown-toggle my-dropdown-color" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{ parent }}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="color: rgb(0, 0, 0);">
+                            {{ parent | escape }}
                         </a>
-                        <div class="dropdown-menu bg-dark my-dropdown-color" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu bg-dark my-color" aria-labelledby="navbarDropdown">
                             {% for page in pages %}
-                            <a class="dropdown-item my-dropdown-color" href="{{ page.url | relative_url }}">{{ page.nav
+                            <a class="dropdown-item my-color" href="{{ page.url | relative_url }}">{{ page.nav
                                 }}</a>
                             {% endfor %}
                         </div>
                     </li>
                     {% else %}
-                    <li class="nav-item my-dropdown-color">
-                        <a class="nav-link my-dropdown-color" href="{{ pages[0].url | relative_url }}">{{ pages[0].nav
+                    <li class="nav-item">
+                        <a class="nav-link my-color" href="{{ pages[0].url | relative_url }}"
+                            style="color: rgb(0, 0, 0);">{{ pages[0].nav
                             }}</a>
                     </li>
                     {% endif %}

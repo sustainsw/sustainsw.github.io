@@ -144,6 +144,14 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
         {% include person.html name="Michael O'Gara" image="/assets/img/blank_profile.png"
         introduction=intro_michael_ogara %}
 
+        {% capture intro_stephen_hall %}
+        Stephen is Professor in Human Neuroimaging, with a research focus on the application of multimodal neural measurement approaches to determine the brain mechanisms of cognitive and behavioural function in health and disease. 
+        Stephen’s research career has focussed on developing and integrating anatomical, physiological, and pharmacological approaches to measure and manipulate neural networks. To advance capability in this field of research, he recently developed and established the Brain Research & Imaging Centre (<a href="https://www.plymouth.ac.uk/research/psychology/brain-research-and-imaging-centre">BRIC</a>), a state-of-the-art research facility with cutting-edge human neuroscience research capability, where he is currently the director.
+        {% endcapture %}
+        {% include person.html name="Stephen Hall" image="/assets/img/Stephen_Hall.png"
+        introduction=intro_stephen_hall %}
+
+
 
         {% capture intro_damjan_veljanoski %}
         <a href="https://plymouth.ac.uk/staff/damjan-veljanoski">Mr Damjan
@@ -169,6 +177,12 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
         {% include person.html name="Ellie Edlmann" image="/assets/img/Ellie_Edlmann.jpg"
         introduction=intro_ellie_edlmann %}
 
+
+        {% capture intro_holly_roy %}
+        Dr Holly Roy is an NIHR clinical lecturer in neurosurgery. During her DPhil she used different modalities including MRI and local field potential recordings to study the neural control of the bladder. She is interested in the role of AI in diagnosing cauda equina syndrome. She is also working on projects around the microbiome in neurosurgical disease and tumour biology.   
+        {% endcapture %}
+        {% include person.html name="Holly Roy" image="/assets/img/Holly_Roy.jpg"
+        introduction=intro_holly_roy %}
     </div>
 </div>
 
