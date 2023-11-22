@@ -18,8 +18,7 @@ nav_order: 1
     <img class="card-img-top" src="{{ post.thumbnail }}" style="height: 300px; width: 300px; display: block;" class="img-fluid">
    </a>
     <div class="card-body pt-1">
-      <h4 class="card-title">{{ post.thumbnail_title }}</h4>
-      <p class="card-text">{{ post.brief}}</p>
+      <h5 class="card-title">{{ post.title }}</h5>
       <a href="{{post.url}}" class="btn btn-primary">See details</a>
     </div>
    </div> 

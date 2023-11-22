@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Aneuysm clip detection
-thumbnail_title: Aneurysm clips
 thumbnail: /assets/img/projects_thumbnail_aneurysm_cxr.png
 brief: a brief intro to the project
 ---
+
 
 
 Some implanted medical devices require additional safety checks before MRI

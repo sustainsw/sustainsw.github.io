@@ -5,15 +5,22 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-text-color">
         <div class="container ">
-            <a class="navbar-brand d-flex flex-column flex-md-row align-items-center" href="{{ '/' | relative_url }}">
-                <img src="{{ '/assets/img/logo.png' | relative_url }}" height="30" class="d-inline-block align-top"
-                    alt="{{ site.title }}">
-                <div class="text-center text-md-left mr-md-3 logo-text-color">
-                    <p class="mb-0 h2">SW CareAI</p>
-                    <p class="mt-n2 mb-0 small">Your Data, Better Health</p>
-                </div>
 
+            <a class="navbar-brand d-flex flex-column flex-md-row align-items-center" href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/img/logo.png' | relative_url }}" height="60" class="d-inline-block align-top"
+                    alt="{{ site.title }}">
+
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: right;">
+                    <div class="logo-text-color" style="font-size: 40px; margin-bottom: -9px;">
+                        SW CareAI
+                    </div>
+                    <div class="logo-text-color" style="font-size: 19px; margin-top: -9px;">
+                        Our Data, Better Health
+                    </div>
+                </div>
             </a>
+
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,7 +38,7 @@
                 {% endif %}
                 {% endfor %}
 
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto justify-content-center">
                     {% for parent in unique_parents %}
                     {% assign pages = site.html_pages | where: "parent", parent %}
                     {% if pages.size > 1 %}
