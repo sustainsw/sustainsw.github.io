@@ -45,6 +45,56 @@ nav_order: 3
         {% include person.html name="Stephen Mullin" image="/assets/img/Stephen_Mullin.jpg" 
         introduction=intro_stephen_mullin %}
 
+        {% capture intro_emmanuel_ifeachor %}
+                <a href="https://www.plymouth.ac.uk/staff/emmanuel-ifeachor">Emmanuel Ifeachor</a>
+  is a Professor of Intelligent Electronic Systems at the UoP. He is an electronics and biomedical engineer and 
+a computer scientist.   His primary research interests and expertise are in the development of Artificial Intelligence (AI) and 
+signal processing techniques and their applications in disease detection, diagnosis and decision support.  He has published extensively 
+in these areas.
+His current research focus involves the development of deep learning and explainable AI methods to detect key 
+changes in routine data for predictive and personalized care in Parkinson, dementia, brain tumour, stroke,
+tuberculosis and autism.
+Professor Ifeachor is also a member of the <a href="https://www.plymouth.ac.uk/research/big-data-group">Big Data Group</a> and <a href="https://www.plymouth.ac.uk/research/nanotechnology-electronics">Nanotechnology and Electronics Research Group</a> 
+at UoP.
+        {% endcapture %}
+        {% include person.html name="Emmanuel Ifeachor" image="/assets/img/Emmanual_Ifeachor.jpg"
+        introduction=intro_emmanuel_ifeachor %}
+
+
+        {% capture intro_megan_courtman %}
+        <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan Courtman</a> is
+        a data scientist interested in using explainable AI to solve problems
+        in healthcare. Much of her work focuses on building computer vision 
+        models for medical imaging classification. She has won the <a
+        href="https://www.theabn.org/">Association of British Neurologists</a>
+        prize for best poster and the UoP <a
+        href="https://www.plymouth.ac.uk/student-life/your-studies/research-degrees/doctoral-college/researcher-development-programme/three-minute-thesis-competition">Three
+        Minute Thesis competition</a>.
+        {% endcapture %}
+        {% include person.html name="Megan Courtman" image="/assets/img/Megan_Courtman.jpg"
+        introduction=intro_megan_courtman %}
+
+
+        {% capture intro_aishwarya_kasabe %}
+Aishwarya is a dedicated Data Scientist and a PhD student at the University of Plymouth, where she passionately delves into the world of medical studies. Her ongoing research journey is centered around the crucial realm of future stroke prediction and prevention, leveraging the power of Explainable Artificial Intelligence applied to routine data. With a strong commitment to harnessing the potential of AI and Machine Learning, her research interests align with the profound impact these technologies can have on medical analysis and healthcare, ultimately striving to make a meaningful contribution to society's well-being.
+        {% endcapture %}
+        {% include person.html name="Aishwarya Kasabe" image="/assets/img/Aishwarya_Kasabe.jpg"
+        introduction=intro_aishwarya_kasabe %}
+
+
+
+        {% capture intro_hongrui_wang %}
+        Dr Hongrui Wang PhD is a data scientist with background of mathematics
+        and statistics. He is a skilled software engineer. He is particularly
+        interested in data management, visulization, analysis and modelling for
+        healthcare and development of relevent tools. He has been instrumental
+        in developing the data pipeline software for anonymising DICOM image
+        data.
+        {% endcapture %}
+        {% include person.html name="Hongrui Wang" image="/assets/img/Hongrui_Wang.jpg"
+        introduction=intro_hongrui_wang %}
+
+
         {% capture intro_william_heseltine_carp%}
         Dr William Heseltine-Carp is an NIHR Academic Clinical Fellow in neurology at University Hospitals Plymouth NHS trust (UHPNT). His previous research has focused on the roles of neuro-inflammation in functional neurological disorders. His work now focuses on a UKRI MRC approved project in using machine learning to predict the future risk of stroke, from routinely collected hospital data. 
         {% endcapture %}
@@ -65,37 +115,6 @@ nav_order: 3
         {% include person.html name="Marie Jasim" image="/assets/img/Marie_Jasim.jpg"
         introduction=intro_marie_jasim %}
 
-        {% capture intro_aishwarya_kasabe %}
-Aishwarya is a dedicated Data Scientist and a PhD student at the University of Plymouth, where she passionately delves into the world of medical studies. Her ongoing research journey is centered around the crucial realm of future stroke prediction and prevention, leveraging the power of Explainable Artificial Intelligence applied to routine data. With a strong commitment to harnessing the potential of AI and Machine Learning, her research interests align with the profound impact these technologies can have on medical analysis and healthcare, ultimately striving to make a meaningful contribution to society's well-being.
-        {% endcapture %}
-        {% include person.html name="Aishwarya Kasabe" image="/assets/img/Aishwarya_Kasabe.jpg"
-        introduction=intro_aishwarya_kasabe %}
-
-
-        {% capture intro_hongrui_wang %}
-        Dr Hongrui Wang PhD is a data scientist with background of mathematics
-        and statistics. He is a skilled software engineer. He is particularly
-        interested in data management, visulization, analysis and modelling for
-        healthcare and development of relevent tools. He has been instrumental
-        in developing the data pipeline software for anonymising DICOM image
-        data.
-        {% endcapture %}
-        {% include person.html name="Hongrui Wang" image="/assets/img/Hongrui_Wang.jpg"
-        introduction=intro_hongrui_wang %}
-
-
-        {% capture intro_megan_courtman %}
-        <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan Courtman</a> is
-        a data scientist interested in using explainable AI to solve problems
-        in healthcare. Much of her work focuses on building computer vision 
-        models for medical imaging classification. She has won the <a
-        href="https://www.theabn.org/">Association of British Neurologists</a>
-        prize for best poster and the UoP <a
-        href="https://www.plymouth.ac.uk/student-life/your-studies/research-degrees/doctoral-college/researcher-development-programme/three-minute-thesis-competition">Three
-        Minute Thesis competition</a>.
-        {% endcapture %}
-        {% include person.html name="Megan Courtman" image="/assets/img/Megan_Courtman.jpg"
-        introduction=intro_megan_courtman %}
 
         {% capture intro_galaleldin_abdelhalim %}
         Dr Abdelhalim is a Clinical Radiology Speciality Trainee at University Hospitals Plymouth NHS Trust. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to 
@@ -141,7 +160,7 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
         Neurological Disorders (FND). He runs a specialist clinic in FND,
         serving patients from around the Southwest. 
         {% endcapture %}
-        {% include person.html name="Michael O'Gara" image="/assets/img/blank_profile.png"
+        {% include person.html name="Michael O'Gara" image="/assets/img/Mike_Ogara.jpg"
         introduction=intro_michael_ogara %}
 
         {% capture intro_stephen_hall %}
