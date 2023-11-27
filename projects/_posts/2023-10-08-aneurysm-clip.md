@@ -45,6 +45,6 @@ been for diagnosis and guiding management. This work illustrates an application
 of computer vision image classification to enhance current processes and
 improve patient safety.
 
-The results have been accepted for publication at the [Journal for Digital
+The results have been accepted for publication in the [Journal for Digital
 Imaging](https://link.springer.com/journal/10278).
 
