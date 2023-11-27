@@ -2,32 +2,49 @@
 layout: project
 title: Aneuysm clip detection
 thumbnail: /assets/img/projects_thumbnail_aneurysm_cxr.png
-brief: a brief intro to the project
+brief: automated aneurysm clip detection
 status: completed
 ---
 
 
 {% include project_head.html 
-disease_area = "Neuroscience; subarachnoid haemorrhage"
-data_sources = "University Hospitals Plymouth NHS Trust (UHPNT)"
-project_stage = " Dissemination of results"
-ethical_approval = "granted"
+disease_area = "MRI safety; neuroscience; subarachnoid haemorrhage"
+data_sources = "University Hospitals Plymouth; Royal Cornwall Hospitals"
+project_stage = "Results accepted for publication"
+ethical_approval = "Granted"
 principal_investigator = "Mark Thurston"
 lead_researcher = "Megan Courtman"
-funders = "n/a"
-paper_reference = "https://pearl.plymouth.ac.uk/handle/10026.1/21636"
+funders = "Internal sponsorship"
 %}
 
 
 ### Summary
 
+Flagging the presence of intracranial surgical clips for aneuysms before an MRI
+scan is essential to allow appropriate safety checks to take place.
 
-![project_img_ces](/assets/img/project_img_ces.png){:width="800px"}
+This project assessed the accuracy with which a machine learning model can
+classify the presence or absence of intracranial aneurysm clips on pre-existing
+imaging data.
 
-Flagging the presence of metal devices before a head MRI scan is essential to allow appropriate safety checks. There is an unmet need for an automated system which can flag aneurysm clips prior to MRI appointments. We assessed the accuracy with which a machine learning model could detect the presence of an aneurysm clip on CT images, as the vast majority of patients with aneurysm clips have had CT head imaging previously performed as part of their treatment. We trained deep learning models on a dataset of 246 CT head localizers. These are poorer quality scans which precede full CT scans, but in which aneurysm clips can often be clearly seen (see Figure). When tested on an unseen dataset of 24 CT localizers, the trained models classified the presence of aneurysm clips with an average sensitivity of 100% and an average accuracy of 82%. There were no dangerous false negative results; any errors were false positives. We used an explainable AI technique called SHapley Additive exPlanations (SHAP) to calculate and visualise the contribution of individual pixels to the predictions. This highlighted that appropriate regions of interest were informing the models (see Figure). This application could be a useful addition to current processes, enabling automatic safety screening for devices to improve MRI patient safety.
+![CT localiser image with a aneurysm clip
+highlighted](/assets/img/project_img_ces.png){:width="600px"}
 
+This project analysed a total of 246 CT head studies, approximately half the
+dataset included studies with aneurysm clips present. The analysis included
+explainable AI technique called SHapley Additive exPlanations (SHAP) to
+calculate and visualise the contribution of individual pixels to the
+predictions. This highlighted that appropriate regions of interest were
+informing the output of the models.
 
-<a href="{% link pages/optout.md%}">
- <button type="button" class="btn btn-primary btn-lg btn-block">Click to Opt Out</button> 
-</a>
+The model could be used to screen for patients requiring additional safety
+input before MRI scan appointments.
+
+The focus of many healthcare applications of computer vision techniques has
+been for diagnosis and guiding management. This work illustrates an application
+of computer vision image classification to enhance current processes and
+improve patient safety.
+
+The results have been accepted for publication at the [Journal for Digital
+Imaging](https://link.springer.com/journal/10278).
 

@@ -2,7 +2,7 @@
     <tbody>
         {% if include.disease_area %}
         <tr>
-            <td>Disease area:</td>
+            <td>Disease area(s):</td>
             <td>{{include.disease_area}}</td>
         </tr>
         {% endif %}
@@ -60,10 +60,10 @@
             <td>{{include.funders}}</td>
         </tr>
         {% endif %}
-        {% if include.reference_of_paper %}
+        {% if include.paper_reference %}
         <tr>
-            <td>Reference of paper:</td>
-            <td>{{include.reference_of_paper}}</td>
+            <td>Reference:</td>
+            <td><a href="{{include.paper_reference}}">{{include.paper_reference}}</a></td>
         </tr>
         {% endif %}
     </tbody>
