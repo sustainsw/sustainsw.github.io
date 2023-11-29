@@ -9,4 +9,3 @@ layout: page
 
 {% include region_maps.html %}
 
-{% include healthcare-provider-map.html %}
