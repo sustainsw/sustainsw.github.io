@@ -9,7 +9,8 @@ status: completed
 
 {% include project_head.html 
 disease_area = "MRI safety; neuroscience; subarachnoid haemorrhage"
-data_sources = "University Hospitals Plymouth; Royal Cornwall Hospitals"
+data_sources = '<a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth</a>; 
+<a href="https://www.royalcornwall.nhs.uk/">Royal Cornwall Hospitals</a>'
 project_stage = "Results accepted for publication"
 ethical_approval = "Granted"
 principal_investigator = "Mark Thurston"

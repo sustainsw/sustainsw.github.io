@@ -11,3 +11,5 @@ This translates into a population with a high disease prevalence, spread across 
 
 
 {% include region_maps.html %}
+
+{% include healthcare-provider-map.html %}
