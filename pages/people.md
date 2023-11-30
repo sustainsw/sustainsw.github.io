@@ -76,11 +76,10 @@ at UoP.
 
 
         {% capture intro_aishwarya_kasabe %}
-Aishwarya is a dedicated Data Scientist and a PhD student at the University of Plymouth, where she passionately delves into the world of medical studies. Her ongoing research journey is centered around the crucial realm of future stroke prediction and prevention, leveraging the power of Explainable Artificial Intelligence applied to routine data. With a strong commitment to harnessing the potential of AI and Machine Learning, her research interests align with the profound impact these technologies can have on medical analysis and healthcare, ultimately striving to make a meaningful contribution to society's well-being.
+        Aishwarya is a dedicated Data Scientist and a PhD student at the <a href="https://www.plymouth.ac.uk/">University of Plymouth</a>, where she passionately delves into the world of medical studies. Her ongoing research journey is centered around the crucial realm of future stroke prediction and prevention, leveraging the power of Explainable Artificial Intelligence applied to routine data. With a strong commitment to harnessing the potential of AI and Machine Learning, her research interests align with the profound impact these technologies can have on medical analysis and healthcare, ultimately striving to make a meaningful contribution to society's well-being.
         {% endcapture %}
         {% include person.html name="Aishwarya Kasabe" image="/assets/img/Aishwarya_Kasabe.jpg"
         introduction=intro_aishwarya_kasabe %}
-
 
 
         {% capture intro_hongrui_wang %}
@@ -96,7 +95,8 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
 
 
         {% capture intro_william_heseltine_carp%}
-        Dr William Heseltine-Carp is an NIHR Academic Clinical Fellow in neurology at University Hospitals Plymouth NHS trust (UHPNT). His previous research has focused on the roles of neuro-inflammation in functional neurological disorders. His work now focuses on a UKRI MRC approved project in using machine learning to predict the future risk of stroke, from routinely collected hospital data. 
+        Dr William Heseltine-Carp is an NIHR Academic Clinical Fellow in neurology at 
+        <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. His previous research has focused on the roles of neuro-inflammation in functional neurological disorders. His work now focuses on a UKRI MRC approved project in using machine learning to predict the future risk of stroke, from routinely collected hospital data. 
         {% endcapture %}
         {% include person.html name="William Heseltine-Carp" image="/assets/img/William Heseltine-Carp.jpg"
         introduction=intro_william_heseltine_carp %}
@@ -117,15 +117,14 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
 
 
         {% capture intro_galaleldin_abdelhalim %}
-        Dr Abdelhalim is a Clinical Radiology Speciality Trainee at University Hospitals Plymouth NHS Trust. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to 
-        <a
-        href="https://pubmed.ncbi.nlm.nih.gov/37005205/">evidence-based practice in interventional radiology</a>.
+        Dr Abdelhalim is a Clinical Radiology Speciality Trainee at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to 
+        <a href="https://pubmed.ncbi.nlm.nih.gov/37005205/">evidence-based practice in interventional radiology</a>.
         {% endcapture %}
         {% include person.html name="Galaleldin Abdelhalim" image="/assets/img/Galaleldin_Abdelhalim.jpg"
         introduction=intro_galaleldin_abdelhalim %}
 
 
-    </div>
+    </div>https://medicine.exeter.ac.uk/
 </div>
 
 <hr>
@@ -136,7 +135,7 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
     <div class="row">
         {% capture intro_michael_allen %}
         Mike is a Senior Research Fellow in Applied Healthcare Modelling and
-        Data Science in the University of Exeter Medical School. After nearly
+        Data Science in the <a href="https://medicine.exeter.ac.uk/">University of Exeter Medical School</a>. After nearly
         20 years in Pharma R&D Drug Discovery, he switched to academia to focus
         on research that maximises NHS benefits from new treatments. He has a
         life-long interest in combining biomedical and computer sciences, and
@@ -154,8 +153,10 @@ Aishwarya is a dedicated Data Scientist and a PhD student at the University of P
         introduction=intro_michael_allen %}
 
 
+
+
         {% capture intro_michael_ogara %}
-        Dr O'Gara is a Neurology consultant at University Hospitals Plymouth.
+        Dr O'Gara is a Neurology consultant at <a href="https://www.plymouth.ac.uk/">University of Plymouth</a>.
         He has specialist interests in Acute Neurology and Functional
         Neurological Disorders (FND). He runs a specialist clinic in FND,
         serving patients from around the Southwest. 
