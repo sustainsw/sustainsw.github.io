@@ -5,6 +5,16 @@ parent: News
 nav: Social media and announcements
 nav_order: 1
 ---
+
+
+
+<!-- <a href="https://twitter.com/plymUni?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-dnt="true"
+    data-show-count="false">Follow @plymUni</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- <a class="twitter-timeline" href="https://twitter.com/PlymUni?ref_src=twsrc%5Etfw">Tweets by PlymUni</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+### News
 <div class="container custom-container">
     {% for post in site.posts %}
       {% if post.categories contains 'news' %}
