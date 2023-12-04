@@ -3,7 +3,7 @@ layout: page
 title: Opt-out
 nav: Opt-out
 parent: Research
-nav_order: 2
+nav_order: 7
 layout: page
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Projects
 parent: Research
 nav: Projects
-nav_order: 1
+nav_order: 5
 ---
 ### Active
 

@@ -2,7 +2,7 @@
 title: Publications
 parent: Team
 nav: Publications
-nav_order: 2
+nav_order: 4
 ---
 
 

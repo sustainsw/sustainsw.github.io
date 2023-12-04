@@ -41,7 +41,7 @@
 
                 <ul class="navbar-nav mr-auto justify-content-center">
                     {% for parent in unique_parents %}
-                    {% assign pages = site.html_pages | where: "parent", parent %}
+                    {% assign pages = site.html_pages | where: "parent", parent | sort: "nav_order" %}
                     {% if pages.size > 1 %}
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
