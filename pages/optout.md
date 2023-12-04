@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Opt out
-
+title: Opt Out
+nav: Opt Out
+parent: Research
+nav_order: 2
+layout: page
 ---
 
 
@@ -29,3 +32,9 @@ and include the following information:
 - Contact email (optional):
 
 - Contact phone number (optional):
+
+
+
+<button onclick="location.href='mailto:plh-tr.researchdataoptout@nhs.net?subject=Subject&body=I want to opt out of xxx';">
+    Draft Email
+</button>

@@ -4,6 +4,8 @@ parent: Team
 nav: Publications
 nav_order: 2
 ---
+
+
 {% raw %}
 <style>
 /* FA book icon */
