@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Aneuysm clip detection
+title: Aneurysm clip detection
 thumbnail: /assets/img/projects_thumbnail_aneurysm_cxr.png
 brief: automated aneurysm clip detection
 status: completed
@@ -21,22 +21,21 @@ funders = "Internal sponsorship"
 
 ### Summary
 
-Flagging the presence of intracranial surgical clips for aneuysms before an MRI
+Flagging the presence of intracranial surgical clips for aneurysms before an MRI
 scan is essential to allow appropriate safety checks to take place.
 
-This project assessed the accuracy with which a machine learning model can
+This project assessed the accuracy with which a machine learning model could
 classify the presence or absence of intracranial aneurysm clips on pre-existing
 imaging data.
 
 ![CT localiser image with a aneurysm clip
 highlighted](/assets/img/project_img_ces.png){:width="600px"}
 
-This project analysed a total of 246 CT head studies, approximately half the
-dataset included studies with aneurysm clips present. The analysis included
-explainable AI technique called SHapley Additive exPlanations (SHAP) to
-calculate and visualise the contribution of individual pixels to the
-predictions. This highlighted that appropriate regions of interest were
-informing the output of the models.
+This project analysed a total of 246 CT head studies, half of which 
+had aneurysm clips present. An explainable AI technique called SHapley Additive 
+exPlanations (SHAP) was used to calculate and visualise the contribution of 
+individual pixels to the predictions. This highlighted that appropriate regions 
+of interest were informing the output of the models.
 
 The model could be used to screen for patients requiring additional safety
 input before MRI scan appointments.
