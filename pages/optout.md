@@ -7,7 +7,8 @@ nav_order: 7
 layout: page
 ---
 
-To opt-out, please specify the project(s) and email[plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out),
+To opt-out, please specify the project(s) and email
+[plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out),
 including the following information:
 
 - Name
