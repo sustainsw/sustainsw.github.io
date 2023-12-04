@@ -95,14 +95,14 @@ href="https://doi.org/10.1259/bjr.20201407">https://doi.org/10.1259/bjr.20201407
 </div>
 
 ## 2020
-
-
-## 2019
-
 <div class="csl-bib-body">
   <div data-csl-entry-id="10.1001/jamaneurol.2019.4611" class="csl-entry">Mullin, S., Smith, L., Lee, K., D’Souza, G., Woodgate, P., Elflein, J., Hällqvist, J., Toffoli, M., Streeter, A., Hosking, J., Heywood, W. E., Khengar, R., Campbell, P., Hehir, J., Cable, S., Mills, K., Zetterberg, H., Limousin, P., Libri, V., … Schapira, A. H. V. (2020). Ambroxol for the Treatment of Patients With Parkinson Disease With and Without Glucocerebrosidase Gene Mutations: A Nonrandomized, Noncontrolled Trial. <i>JAMA Neurology</i>, <i>77</i>(4), 427–434. <a href="https://doi.org/10.1001/jamaneurol.2019.4611">https://doi.org/10.1001/jamaneurol.2019.4611</a>
 </div>
 </div>
+
+## 2019
+
+
 
 <div class="csl-bib-body">
   <div data-csl-entry-id="Avenali1091" class="csl-entry">Avenali, M., Toffoli, M., Mullin, S., McNeil, A., Hughes, D. A., Mehta, A., Blandini, F., &#38; Schapira, A. H. V. (2019). Evolution of prodromal parkinsonian features in a cohort of GBA mutation-positive individuals: a 6-year longitudinal study. <i>Journal of Neurology, Neurosurgery &#38; Psychiatry</i>, <i>90</i>(10), 1091–1097. <a href="https://doi.org/10.1136/jnnp-2019-320394">https://doi.org/10.1136/jnnp-2019-320394</a>
