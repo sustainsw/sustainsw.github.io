@@ -7,15 +7,8 @@ nav_order: 2
 layout: page
 ---
 
-To opt-out, please [email
-plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out),
-including the following:
-
-- I want to opt-out of (choose one or more of the following studies): 
-{% for post in site.posts %}
-    - {{ post.title }}
-{% endfor %}
-    - All of the above
+To opt-out, please specify the project(s) and email[plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out),
+including the following information:
 
 - Name
 
