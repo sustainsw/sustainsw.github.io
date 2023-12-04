@@ -69,7 +69,10 @@ at UoP.
         href="https://www.theabn.org/">Association of British Neurologists</a>
         prize for best poster and the UoP <a
         href="https://www.plymouth.ac.uk/student-life/your-studies/research-degrees/doctoral-college/researcher-development-programme/three-minute-thesis-competition">Three
-        Minute Thesis competition</a>.
+        Minute Thesis competition</a>. She is a member of the Involvement 
+        Steering Group at <a href="https://www.parkinsons.org.uk/">Parkinson's UK</a>, 
+        which provides support for the organisation's patient and public 
+        involvement (PPI) programme.
         {% endcapture %}
         {% include person.html name="Megan Courtman" image="/assets/img/Megan_Courtman.jpg"
         introduction=intro_megan_courtman %}

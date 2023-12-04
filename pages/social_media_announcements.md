@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Social media and announcements
+title: Announcements
 parent: News
-nav: Social media and announcements
+nav: Announcements
 nav_order: 1
 ---
-
-
 
 <!-- <a href="https://twitter.com/plymUni?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-dnt="true"
     data-show-count="false">Follow @plymUni</a>
