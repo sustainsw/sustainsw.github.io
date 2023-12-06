@@ -124,15 +124,16 @@
         popupAnchor: [1, -34],
     });
 
-    L.marker([50.416826349712814, -4.1157006816879536], { icon: DerrifordIcon }).addTo(map).bindPopup("Derriford Hospital");
+    L.marker([50.416826349712814, -4.1157006816879536], { icon: DerrifordIcon }).addTo(map).bindPopup(
+        '<a href ="https://www.plymouthhospitals.nhs.uk/"><b>Derriford Hospital</b></a> is an acute hospital in Plymouth, Devon.It is the regional tertiary referral centre and encompasses the University of Plymouth Peninsula medical school.It is the regional major trauma, neuroscience, cardiothoracic and transplant centre. ');
 
-    L.marker([50.48162569350767, -3.55342761523626], { icon: TorbayIcon }).addTo(map).bindPopup("Torbay Hospital");
+    L.marker([50.48162569350767, -3.55342761523626], { icon: TorbayIcon }).addTo(map).bindPopup('<a href ="https://www.torbayandsouthdevon.nhs.uk/visiting-us/torbay-hospital/"><b>Torbay Hospital</b></a>  is an acute hospital in Torquay, Devon.');
 
-    L.marker([50.717119288778626, -3.506438030571071], { icon: RoyalDevonIcon }).addTo(map).bindPopup("Royal Devon and Exeter Hospital");
+    L.marker([50.717119288778626, -3.506438030571071], { icon: RoyalDevonIcon }).addTo(map).bindPopup('<a href ="https://royaldevon.nhs.uk/"><b>The Royal Devon and Exeter</b></a> is an acute hospital in Exeter, Devon. It encompasses Exeter medical school. It is the regional genetics and genomics hub.');
 
-    L.marker([51.092303440482524, -4.050409844050122], { icon: RoyalDevonIcon }).addTo(map).bindPopup("Barnstaple Hospital");
+    L.marker([51.092303440482524, -4.050409844050122], { icon: RoyalDevonIcon }).addTo(map).bindPopup('<b>Barnstaple Hospital</b> is an acute hospital in Barnstaple, Devon.');
 
-    L.marker([50.26638094938228, -5.0922181440797445], { icon: RoyalCornwallIcon }).addTo(map).bindPopup("Royal Cornwall Hospital");
+    L.marker([50.26638094938228, -5.0922181440797445], { icon: RoyalCornwallIcon }).addTo(map).bindPopup('<a href ="https://royalcornwallhospitals.nhs.uk/"><b>The Royal Cornwall Hospital</b></a>  is an acute hospital in Truro, Cornwall.');
 
     var legend = L.control({ position: 'topleft' });
 
@@ -148,5 +149,12 @@
     };
 
     legend.addTo(map);
+    map.on('popupopen', function () {
+        map.removeControl(legend);
+    });
+
+    map.on('popupclose', function () {
+        legend.addTo(map);
+    });
 
 </script>
