@@ -15,7 +15,7 @@ project_stage = "Results accepted for publication"
 ethical_approval = "Granted"
 principal_investigator = "Mark Thurston"
 lead_researcher = "Megan Courtman"
-funders = "Internal sponsorship"
+funders = '<a href="https://royalcornwallhospitals.nhs.uk/">Royal Cornwall Hospitals NHS Trust</a>'
 %}
 
 
