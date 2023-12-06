@@ -30,8 +30,8 @@
             <div class="collapse navbar-collapse" id="navbarContent">
 
                 {% assign unique_parents = "" | split: "" %}
-
-                {% for page in site.html_pages %}
+                {% assign sorted_pages = site.html_pages | sort: "nav_order" %}
+                {% for page in sorted_pages %}
                 {% if page.parent %}
                 {% unless unique_parents contains page.parent %}
                 {% assign unique_parents = unique_parents | push: page.parent %}
