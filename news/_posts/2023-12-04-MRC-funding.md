@@ -2,7 +2,7 @@
 layout: news
 author: unknown author
 title: SUSTAIN SouthWest secures £300K from the Medical Research Council for groundbreaking stroke research
-thumbnail: /assets/img/news_thumbnail_academy.jpg
+thumbnail: /assets/img/logo-mrc.png
 excerpt_separator: <!--more-->
 ---
 

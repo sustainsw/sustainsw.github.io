@@ -17,9 +17,9 @@ nav_order: 1
     {% for post in site.posts %}
       {% if post.categories contains 'news' %}
     <div class="blog-row">
-        <div class="col-md-3">
+        <div class="col-md-3 d-flex align-items-center">
             <div class="blog-block">
-                <img src="{{ post.thumbnail }}" style="height: 250px; width: 250px; display: block;" class="img-fluid">
+                <img src="{{ post.thumbnail }}" style="width: 250px; display: block;" class="img-fluid">
             </div>
         </div>
         <div class="col-md-9">
