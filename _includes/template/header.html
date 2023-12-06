@@ -59,7 +59,7 @@
                     {% else %}
                     <li class="nav-item">
                         <a class="nav-link my-color" href="{{ pages[0].url | relative_url }}"
-                            style="color: rgb(0, 0, 0);">{{ pages[0].nav
+                            style="color: {{ pages[0].title_color }};">{{ pages[0].nav
                             }}</a>
                     </li>
                     {% endif %}

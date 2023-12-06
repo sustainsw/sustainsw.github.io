@@ -4,6 +4,7 @@ nav: Home
 parent: Home
 nav_order: 0
 layout: page
+title_color: rgb(0, 0, 0)
 ---
 
 
