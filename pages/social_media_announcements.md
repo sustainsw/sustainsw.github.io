@@ -3,7 +3,7 @@ layout: page
 title: Announcements
 parent: News
 nav: Announcements
-nav_order: 1
+nav_order: 10
 ---
 
 <!-- <a href="https://twitter.com/plymUni?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-dnt="true"
