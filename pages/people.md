@@ -127,7 +127,7 @@ at UoP.
         introduction=intro_galaleldin_abdelhalim %}
 
 
-    </div>https://medicine.exeter.ac.uk/
+    </div>
 </div>
 
 <hr>
