@@ -104,7 +104,11 @@ at UoP.
         {% include person.html name="William Heseltine-Carp" image="/assets/img/William Heseltine-Carp.jpg"
         introduction=intro_william_heseltine_carp %}
 
-
+        {% capture intro_adam_streeter %}
+As a Biostatistician working in clinical trials and studies based on pseudonymised electronic patient records, in <a href="https://www.plymouth.ac.uk/staff/adam-streeter">Plymouth</a> and in <a href="https://www.medizin.uni-muenster.de/epi/institut/mitarbeiter/adam-streeter-msc-applied-statistics-phd.html">Münster</a>, Adam Streeter’s focus has been on best practice in data protection and utilising available data to maximise their benefit to the patient. As a chief investigator on his own study (<a href="https://fundingawards.nihr.ac.uk/award/NIHR202012">STOPFlu</a>), he incorporated patient-public involvement into the research team. Having worked previously with Stephen Mullin and his team, Adam is keen to contribute to their ground-breaking research for predicting, and ultimately preventing, strokes. He brings with him experience in handling electronic health data and in their statistical analysis.
+        {% endcapture %}
+        {% include person.html name="Adam Streeter" image="/assets/img/Adam_Streeter.jpg"
+        introduction=intro_adam_streeter %}
 
         {% capture intro_marie_jasim %}
         Dr Marie Jasim is an NIHR Research Associate and an Undergraduate
@@ -117,7 +121,13 @@ at UoP.
         {% endcapture %}
         {% include person.html name="Marie Jasim" image="/assets/img/Marie_Jasim.jpg"
         introduction=intro_marie_jasim %}
+        
 
+        {% capture intro_victor_rusu %}
+        Dr Victor Rusu is a Neurology Registrar working at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is currently undergoing the Research Associate scheme from    <a href="https://www.nihr.ac.uk/">NIHR</a>. His primary research interest is focused on Movement Disorders (but also other neurodegenerative conditions), looking at improving the local care delivered to patients with these illnesses and assessing the impact of the current NHS structure (Specialist Neurology clinics in particular) on patient care. 
+        {% endcapture %}
+        {% include person.html name="Victor Rusu" image="/assets/img/Victor_Rusu.jpg"
+        introduction=intro_victor_rusu %}
 
         {% capture intro_galaleldin_abdelhalim %}
         Dr Abdelhalim is a Clinical Radiology Speciality Trainee at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to 
