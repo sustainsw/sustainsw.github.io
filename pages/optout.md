@@ -7,12 +7,8 @@ nav_order: 7
 layout: page
 ---
 
-Our research complies with the [highest standard of data protection]({% link pages/our_data.md%}). All the data we use is [anonymised]({% link pages/our_data.md%}) within NHS systems prior to use. We undertake all feasible steps to ensure data is secure and that your [privacy is protected]({% link pages/our_data.md%}). We do however appreciate that some people may not wish their data to be used for health improvement research. If you would like to opt-out of any of our projects, please send an email
-[plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out) to the address below. 
-
-plh-tr.researchdataoptout@nhs.net
-
-Please specify the project(s) you wish to opt out of and include the following information:
+Our research complies with the [highest standard of data protection]({% link pages/our_data.md%}). All the data we use is [anonymised]({% link pages/our_data.md%}) within NHS systems prior to use. We undertake all feasible steps to ensure data is secure and that your [privacy is protected]({% link pages/our_data.md%}). We do however appreciate that some people may not wish their data to be used for health improvement research. If you would like to opt-out of any of our projects, please send an email to
+[plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out). specifying the project(s) you wish to opt out of and including the following information:
 
 - Name
 
