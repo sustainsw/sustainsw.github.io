@@ -15,7 +15,7 @@ Our research complies with the [highest standard of data protection]({% link pag
  *Cauda equina compression MRI categorisation*
 
 
-If you would like to opt-out of any of our projects, please send an email to
+If you would like to opt-out of one or more of these projects, please send an email to
 [plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out) specifying the project(s) you wish to opt out of and including the following information:
 
 - Name
