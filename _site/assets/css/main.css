@@ -19,69 +19,69 @@
 /* each function to create all the buttons */
 .btn-dark {
   color: #fff;
-  background-color: #cae6ff;
-  border-color: #cae6ff;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #a4d4ff;
-  border-color: #97ceff;
+  background-color: black;
+  border-color: black;
 }
 .btn-dark:focus, .btn-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(177, 201, 223, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 38, 38, 0.5);
 }
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #97ceff;
-  border-color: #8ac8ff;
+  background-color: black;
+  border-color: black;
 }
 .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(177, 201, 223, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 38, 38, 0.5);
 }
 
 .btn-outline-dark {
-  color: #cae6ff;
-  border-color: #cae6ff;
+  color: #000000;
+  border-color: #000000;
 }
 .btn-outline-dark:hover {
-  color: #212529;
-  background-color: #cae6ff;
-  border-color: #cae6ff;
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-outline-dark:focus, .btn-outline-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(202, 230, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
 }
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #cae6ff;
+  color: #000000;
   background-color: transparent;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active, .show > .btn-outline-dark.dropdown-toggle {
-  color: #212529;
-  background-color: #cae6ff;
-  border-color: #cae6ff;
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(202, 230, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
 }
 
 /* each function to create text colors */
 .text-dark {
-  color: #cae6ff !important;
+  color: #000000 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: #7ec2ff !important;
+  color: black !important;
 }
 
 /* each function to create background colors */
 .bg-dark {
-  background-color: #cae6ff !important;
+  background-color: #000000 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #97ceff !important;
+  background-color: black !important;
 }
 
 /* 
@@ -245,18 +245,27 @@ a:hover {
 }
 
 .logo-text-color {
-  color: #032300;
+  color: #000000;
   /* replace with your color */
 }
 
 .my-color {
-  color: #000000;
+  color: #ffffff;
   /* replace with your color */
 }
 
 #map {
   height: 350px;
   width: 500px;
+}
+
+.search-bar {
+  border: 1px solid white;
+  /* Set the border to white */
+  /* Add other styles as needed */
+  color: white;
+  border-color: white;
+  /* Example border color */
 }
 
 /*# sourceMappingURL=main.css.map */
