@@ -1,11 +1,8 @@
-<div class="bg-dark navbar-text-color text-center">
+<div class="navbar-text-color text-center">
 
 
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-text-color">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-text-color" , style="background-color: #F4F4F4;">
         <div class="container ">
-
             <a class="navbar-brand d-flex flex-column flex-md-row align-items-center" href="{{ '/' | relative_url }}"
                 style="display: flex; flex-direction: row; ">
                 <img src="{{ '/assets/img/logo.png' | relative_url }}" height="60" class="d-inline-block align-top"
@@ -20,6 +17,13 @@
                     </div>
                 </div>
             </a>
+
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-text-color">
+        <div class="container ">
+
 
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
@@ -46,7 +50,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            style="color: rgb(0, 0, 0);">
+                            style="color: rgb(255, 255, 255);">
                             {{ parent | escape }}
                         </a>
                         <div class="dropdown-menu bg-dark my-color" aria-labelledby="navbarDropdown">
@@ -79,7 +83,8 @@
                         <input id="site-search" class="form-control" type="search" placeholder="Search"
                             aria-label="Search">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-primary" type="submit">{% include icon.html icon="search"
+                            <button class="btn btn-outline-primary search-bar" type="submit">{% include icon.html
+                                icon="search"
                                 label="Submit Search" %}</button>
                         </div>
                     </div>

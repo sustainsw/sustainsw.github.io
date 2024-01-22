@@ -59,16 +59,25 @@
 }
 
 .logo-text-color {
-    color: #032300;
+    color: #000000;
     /* replace with your color */
 }
 
 .my-color {
-    color: #000000;
+    color: #ffffff;
     /* replace with your color */
 }
 
 #map {
     height: 350px;
     width: 500px;
+}
+
+.search-bar {
+    border: 1px solid white;
+    /* Set the border to white */
+    /* Add other styles as needed */
+    color: white;
+    border-color: white;
+    /* Example border color */
 }

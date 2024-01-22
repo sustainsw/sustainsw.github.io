@@ -4,5 +4,5 @@ nav: Donate
 parent: Donate
 nav_order: 14
 layout: page
-title_color: rgba(36, 138, 7, 0.893)
+title_color: rgba(196, 255, 200, 1)
 ---
