@@ -105,7 +105,7 @@ at UoP.
         introduction=intro_william_heseltine_carp %}
 
         {% capture intro_adam_streeter %}
-As a Biostatistician working in clinical trials and studies based on pseudonymised electronic patient records, in <a href="https://www.plymouth.ac.uk/staff/adam-streeter">Plymouth</a> and in <a href="https://www.medizin.uni-muenster.de/epi/institut/mitarbeiter/adam-streeter-msc-applied-statistics-phd.html">Münster</a>, Adam Streeter’s focus has been on best practice in data protection and utilising available data to maximise their benefit to the patient. As a chief investigator on his own study (<a href="https://fundingawards.nihr.ac.uk/award/NIHR202012">STOPFlu</a>), he incorporated patient-public involvement into the research team. Having worked previously with Stephen Mullin and his team, Adam is keen to contribute to their ground-breaking research for predicting, and ultimately preventing, strokes. He brings with him experience in handling electronic health data and in their statistical analysis.
+        As a Biostatistician working in clinical trials and studies based on pseudonymised electronic patient records, in <a href="https://www.plymouth.ac.uk/staff/adam-streeter">Plymouth</a> and in <a href="https://www.medizin.uni-muenster.de/epi/institut/mitarbeiter/adam-streeter-msc-applied-statistics-phd.html">Münster</a>, Adam Streeter’s focus has been on best practice in data protection and utilising available data to maximise their benefit to the patient. As a chief investigator on his own study (<a href="https://fundingawards.nihr.ac.uk/award/NIHR202012">STOPFlu</a>), he incorporated patient-public involvement into the research team. Having worked previously with Stephen Mullin and his team, Adam is keen to contribute to their ground-breaking research for predicting, and ultimately preventing, strokes. He brings with him experience in handling electronic health data and in their statistical analysis.
         {% endcapture %}
         {% include person.html name="Adam Streeter" image="/assets/img/Adam_Streeter.jpg"
         introduction=intro_adam_streeter %}
@@ -183,6 +183,12 @@ As a Biostatistician working in clinical trials and studies based on pseudonymis
         {% endcapture %}
         {% include person.html name="Stephen Hall" image="/assets/img/Stephen_Hall.png"
         introduction=intro_stephen_hall %}
+
+        {% capture intro_dan_browning %}
+        Daniel Browning is a Senior Physician Associate and Nurse Prescriber working in Neurology and Acute Stroke at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in primary and secondary prevention of stroke with current experience of working within a hyperacute stroke unit as well as prior experience with acute coronary syndromes.
+        {% endcapture %}
+        {% include person.html name="Dan Browning" image="/assets/img/Dan_Browning.jpg"
+        introduction=intro_dan_browning %}
 
 
 
