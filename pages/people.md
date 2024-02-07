@@ -136,6 +136,11 @@ at UoP.
         {% include person.html name="Galaleldin Abdelhalim" image="/assets/img/Galaleldin_Abdelhalim.jpg"
         introduction=intro_galaleldin_abdelhalim %}
 
+        {% capture intro_dan_browning %}
+        Daniel Browning is a Senior Physician Associate and Nurse Prescriber working in Neurology and Acute Stroke at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in primary and secondary prevention of stroke with current experience of working within a hyperacute stroke unit as well as prior experience with acute coronary syndromes.
+        {% endcapture %}
+        {% include person.html name="Dan Browning" image="/assets/img/Dan_Browning.jpg"
+        introduction=intro_dan_browning %}
 
     </div>
 </div>
@@ -183,13 +188,6 @@ at UoP.
         {% endcapture %}
         {% include person.html name="Stephen Hall" image="/assets/img/Stephen_Hall.png"
         introduction=intro_stephen_hall %}
-
-        {% capture intro_dan_browning %}
-        Daniel Browning is a Senior Physician Associate and Nurse Prescriber working in Neurology and Acute Stroke at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in primary and secondary prevention of stroke with current experience of working within a hyperacute stroke unit as well as prior experience with acute coronary syndromes.
-        {% endcapture %}
-        {% include person.html name="Dan Browning" image="/assets/img/Dan_Browning.jpg"
-        introduction=intro_dan_browning %}
-
 
 
         {% capture intro_damjan_veljanoski %}
