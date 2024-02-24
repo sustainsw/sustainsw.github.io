@@ -120,7 +120,7 @@ href="https://doi.org/10.1007/s10278-022-00663-2">https://doi.org/10.1007/s10278
 
 
 <div class="csl-bib-body">
-  <div data-csl-entry-id="Toffoli2022" class="csl-entry">Toffoli, M., Chen, X., Sedlazeck, F. J., Lee, C.-Y., Mullin, S., Higgins, A., Koletsi, S., Garcia-Segura, M. E., Sammler, E., Scholz, S. W., Schapira, A. H. V., Eberle, M. A., &#38; Proukakis, C. (2022). Comprehensive short and long read sequencing analysis for the Gaucher and Parkinson’s disease-associated GBA gene. <i>Communications Biology</i>, <i>5</i>(1), 670. 
+  <div data-csl-entry-id="Toffoli2022" class="csl-entry">Toffoli, M., Chen, X., Sedlazeck, F. J., Lee, C.-Y., Mullin, S., Higgins, A., Koletsi, S., Garcia-Segura, M. E., Sammler, E., Scholz, S. W., Schapira, A. H. V., Eberle, M. A., &#38; Proukakis, C. (2022). Comprehensive short and long read sequencing analysis for the Gaucher and Parkinson’s disease-associated GBA gene. <i>Communications Biology</i>, <i>5</i>(1), 670.
 <a href="https://doi.org/10.1038/s42003-022-03610-7">https://doi.org/10.1038/s42003-022-03610-7</a>
 </div>
 </div>
@@ -233,7 +233,7 @@ href="https://doi.org/10.1259/bjr.20201407">https://doi.org/10.1259/bjr.20201407
 </div>
 
 <div class="csl-bib-body">
-  <div data-csl-entry-id="9266037" class="csl-entry">Barakabitze, A. A., Mkwawa, I.-H., Hines, A., Sun, L., &#38; Ifeachor, E. (2020). QoEMultiSDN: Management of Multimedia Services using MPTCP/SR in Softwarized and Virtualized Networks. <i>IEEE Access</i>, 1–1. 
+  <div data-csl-entry-id="9266037" class="csl-entry">Barakabitze, A. A., Mkwawa, I.-H., Hines, A., Sun, L., &#38; Ifeachor, E. (2020). QoEMultiSDN: Management of Multimedia Services using MPTCP/SR in Softwarized and Virtualized Networks. <i>IEEE Access</i>, 1–1.
   <a href="https://doi.org/10.1109/ACCESS.2020.3039953">https://doi.org/10.1109/ACCESS.2020.3039953</a></div>
 </div>
 
@@ -344,63 +344,3 @@ href="https://doi.org/10.3390/diagnostics8010005">https://doi.org/10.3390/diagno
 <div class="csl-bib-body">
   <div data-csl-entry-id="article" class="csl-entry">Wyatt, K., Lloyd, J., Creanor, S., Green, C., Dean, S., Hillsdon, M., Abraham, C., Tomlinson, R., Pearson, V., Taylor, R., Ryan, E., Streeter, A., Forbes, C., Hurst, A., Price, L., Crathorne, L., Krägeloh, C., Siegert, R., &#38; Logan, S. (2018). Cluster randomised controlled trial and economic and process evaluation to determine the effectiveness and cost-effectiveness of a novel intervention [Healthy Lifestyles Programme (HeLP)] to prevent obesity in school children. <i>Public Health Research</i>, <i>6</i>, 1–204. <a href="https://doi.org/10.3310/phr06010">https://doi.org/10.3310/phr06010</a> </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

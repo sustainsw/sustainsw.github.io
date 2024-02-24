@@ -7,9 +7,9 @@ status: completed
 ---
 
 
-{% include project_head.html 
+{% include project_head.html
 disease_area = "MRI safety; neuroscience; subarachnoid haemorrhage"
-data_sources = '<a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth</a>; 
+data_sources = '<a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth</a>;
 <a href="https://www.royalcornwall.nhs.uk/">Royal Cornwall Hospitals</a>'
 project_stage = "Results accepted for publication"
 ethical_approval = "Granted"
@@ -31,10 +31,10 @@ imaging data.
 ![CT localiser image with a aneurysm clip
 highlighted](/assets/img/project_img_ces.png){:width="600px"}
 
-This project analysed a total of 246 CT head studies, half of which 
-had aneurysm clips present. An explainable AI technique called SHapley Additive 
-exPlanations (SHAP) was used to calculate and visualise the contribution of 
-individual pixels to the predictions. This highlighted that appropriate regions 
+This project analysed a total of 246 CT head studies, half of which
+had aneurysm clips present. An explainable AI technique called SHapley Additive
+exPlanations (SHAP) was used to calculate and visualise the contribution of
+individual pixels to the predictions. This highlighted that appropriate regions
 of interest were informing the output of the models.
 
 The model could be used to screen for patients requiring additional safety
@@ -47,4 +47,3 @@ improve patient safety.
 
 The results have been accepted for publication in the [Journal for Digital
 Imaging](https://link.springer.com/journal/10278).
-

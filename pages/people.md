@@ -42,19 +42,19 @@ nav_order: 3
         Health Technology Assessment</a> Advisory Group. He is the UoP Faculty
         of Health lead for the group.
         {% endcapture %}
-        {% include person.html name="Stephen Mullin" image="/assets/img/Stephen_Mullin.jpg" 
+        {% include person.html name="Stephen Mullin" image="/assets/img/Stephen_Mullin.jpg"
         introduction=intro_stephen_mullin %}
 
         {% capture intro_emmanuel_ifeachor %}
                 <a href="https://www.plymouth.ac.uk/staff/emmanuel-ifeachor">Emmanuel Ifeachor</a>
-  is a Professor of Intelligent Electronic Systems at the UoP. He is an electronics and biomedical engineer and 
-a computer scientist.   His primary research interests and expertise are in the development of Artificial Intelligence (AI) and 
-signal processing techniques and their applications in disease detection, diagnosis and decision support.  He has published extensively 
+  is a Professor of Intelligent Electronic Systems at the UoP. He is an electronics and biomedical engineer and
+a computer scientist.   His primary research interests and expertise are in the development of Artificial Intelligence (AI) and
+signal processing techniques and their applications in disease detection, diagnosis and decision support.  He has published extensively
 in these areas.
-His current research focus involves the development of deep learning and explainable AI methods to detect key 
+His current research focus involves the development of deep learning and explainable AI methods to detect key
 changes in routine data for predictive and personalized care in Parkinson, dementia, brain tumour, stroke,
 tuberculosis and autism.
-Professor Ifeachor is also a member of the <a href="https://www.plymouth.ac.uk/research/big-data-group">Big Data Group</a> and <a href="https://www.plymouth.ac.uk/research/nanotechnology-electronics">Nanotechnology and Electronics Research Group</a> 
+Professor Ifeachor is also a member of the <a href="https://www.plymouth.ac.uk/research/big-data-group">Big Data Group</a> and <a href="https://www.plymouth.ac.uk/research/nanotechnology-electronics">Nanotechnology and Electronics Research Group</a>
 at UoP.
         {% endcapture %}
         {% include person.html name="Emmanuel Ifeachor" image="/assets/img/Emmanual_Ifeachor.jpg"
@@ -64,14 +64,14 @@ at UoP.
         {% capture intro_megan_courtman %}
         <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan Courtman</a> is
         a data scientist interested in using explainable AI to solve problems
-        in healthcare. Much of her work focuses on building computer vision 
+        in healthcare. Much of her work focuses on building computer vision
         models for medical imaging classification. She has won the <a
         href="https://www.theabn.org/">Association of British Neurologists</a>
         prize for best poster and the UoP <a
         href="https://www.plymouth.ac.uk/student-life/your-studies/research-degrees/doctoral-college/researcher-development-programme/three-minute-thesis-competition">Three
-        Minute Thesis competition</a>. She is a member of the Involvement 
-        Steering Group at <a href="https://www.parkinsons.org.uk/">Parkinson's UK</a>, 
-        which provides support for the organisation's patient and public 
+        Minute Thesis competition</a>. She is a member of the Involvement
+        Steering Group at <a href="https://www.parkinsons.org.uk/">Parkinson's UK</a>,
+        which provides support for the organisation's patient and public
         involvement (PPI) programme.
         {% endcapture %}
         {% include person.html name="Megan Courtman" image="/assets/img/Megan_Courtman.jpg"
@@ -98,8 +98,8 @@ at UoP.
 
 
         {% capture intro_william_heseltine_carp%}
-        Dr William Heseltine-Carp is an NIHR Academic Clinical Fellow in neurology at 
-        <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. His previous research has focused on the roles of neuro-inflammation in functional neurological disorders. His work now focuses on a UKRI MRC approved project in using machine learning to predict the future risk of stroke, from routinely collected hospital data. 
+        Dr William Heseltine-Carp is an NIHR Academic Clinical Fellow in neurology at
+        <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. His previous research has focused on the roles of neuro-inflammation in functional neurological disorders. His work now focuses on a UKRI MRC approved project in using machine learning to predict the future risk of stroke, from routinely collected hospital data.
         {% endcapture %}
         {% include person.html name="William Heseltine-Carp" image="/assets/img/William Heseltine-Carp.jpg"
         introduction=intro_william_heseltine_carp %}
@@ -121,16 +121,16 @@ at UoP.
         {% endcapture %}
         {% include person.html name="Marie Jasim" image="/assets/img/Marie_Jasim.jpg"
         introduction=intro_marie_jasim %}
-        
+
 
         {% capture intro_victor_rusu %}
-        Dr Victor Rusu is a Neurology Registrar working at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is currently undergoing the Research Associate scheme from    <a href="https://www.nihr.ac.uk/">NIHR</a>. His primary research interest is focused on Movement Disorders (but also other neurodegenerative conditions), looking at improving the local care delivered to patients with these illnesses and assessing the impact of the current NHS structure (Specialist Neurology clinics in particular) on patient care. 
+        Dr Victor Rusu is a Neurology Registrar working at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is currently undergoing the Research Associate scheme from    <a href="https://www.nihr.ac.uk/">NIHR</a>. His primary research interest is focused on Movement Disorders (but also other neurodegenerative conditions), looking at improving the local care delivered to patients with these illnesses and assessing the impact of the current NHS structure (Specialist Neurology clinics in particular) on patient care.
         {% endcapture %}
         {% include person.html name="Victor Rusu" image="/assets/img/Victor_Rusu.jpg"
         introduction=intro_victor_rusu %}
 
         {% capture intro_galaleldin_abdelhalim %}
-        Dr Abdelhalim is a Clinical Radiology Speciality Trainee at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to 
+        Dr Abdelhalim is a Clinical Radiology Speciality Trainee at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to
         <a href="https://pubmed.ncbi.nlm.nih.gov/37005205/">evidence-based practice in interventional radiology</a>.
         {% endcapture %}
         {% include person.html name="Galaleldin Abdelhalim" image="/assets/img/Galaleldin_Abdelhalim.jpg"
@@ -177,13 +177,13 @@ at UoP.
         Dr O'Gara is a Neurology consultant at <a href="https://www.plymouth.ac.uk/">University of Plymouth</a>.
         He has specialist interests in Acute Neurology and Functional
         Neurological Disorders (FND). He runs a specialist clinic in FND,
-        serving patients from around the Southwest. 
+        serving patients from around the Southwest.
         {% endcapture %}
         {% include person.html name="Michael O'Gara" image="/assets/img/Mike_Ogara.jpg"
         introduction=intro_michael_ogara %}
 
         {% capture intro_stephen_hall %}
-        Stephen is Professor in Human Neuroimaging, with a research focus on the application of multimodal neural measurement approaches to determine the brain mechanisms of cognitive and behavioural function in health and disease. 
+        Stephen is Professor in Human Neuroimaging, with a research focus on the application of multimodal neural measurement approaches to determine the brain mechanisms of cognitive and behavioural function in health and disease.
         Stephen’s research career has focussed on developing and integrating anatomical, physiological, and pharmacological approaches to measure and manipulate neural networks. To advance capability in this field of research, he recently developed and established the Brain Research & Imaging Centre (<a href="https://www.plymouth.ac.uk/research/psychology/brain-research-and-imaging-centre">BRIC</a>), a state-of-the-art research facility with cutting-edge human neuroscience research capability, where he is currently the director.
         {% endcapture %}
         {% include person.html name="Stephen Hall" image="/assets/img/Stephen_Hall.png"
@@ -209,17 +209,16 @@ at UoP.
         Dr Ellie Edlmann, FRCS Neurosurgery, PhD is a clinical lecturer in
         Neurosurgery with an academic interest in clinical trials, traumatic
         brain injury and chronic subdural haematoma. Her clinical focus is
-        neuro-oncology and trauma/head injury management. 
+        neuro-oncology and trauma/head injury management.
         {% endcapture %}
         {% include person.html name="Ellie Edlmann" image="/assets/img/Ellie_Edlmann.jpg"
         introduction=intro_ellie_edlmann %}
 
 
         {% capture intro_holly_roy %}
-        Dr Holly Roy is an NIHR clinical lecturer in neurosurgery. During her DPhil she used different modalities including MRI and local field potential recordings to study the neural control of the bladder. She is interested in the role of AI in diagnosing cauda equina syndrome. She is also working on projects around the microbiome in neurosurgical disease and tumour biology.   
+        Dr Holly Roy is an NIHR clinical lecturer in neurosurgery. During her DPhil she used different modalities including MRI and local field potential recordings to study the neural control of the bladder. She is interested in the role of AI in diagnosing cauda equina syndrome. She is also working on projects around the microbiome in neurosurgical disease and tumour biology.
         {% endcapture %}
         {% include person.html name="Holly Roy" image="/assets/img/Holly_Roy.jpg"
         introduction=intro_holly_roy %}
     </div>
 </div>
-

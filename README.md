@@ -1,7 +1,7 @@
-# Update a page 
-The website can be updated using Markdown. 
+# Update a page
+The website can be updated using Markdown.
 
-To update exsiting webpages, update corresponding Markdown (`.md`) files in `pages` folder. 
+To update exsiting webpages, update corresponding Markdown (`.md`) files in `pages` folder.
 
 To add a new webpage, create a Markdown  (`.md`) file in `pages` folder, put the following code at the top of the file (including the triple hyphen `---`), and update the text after colon `:`:
 ```
@@ -15,7 +15,7 @@ nav_order: <position of the lablel in navigation bar>
 Markdown file for home page is `index.md`. Follow the above instructions to update the page.
 
 ## Add news
-To add a news, create a new file in folder `news/_posts` with name format `yyyy-mm-dd-<name>.md` eg `2023-10-09-aneurysm-clip.md`. Once the file is created, the corresponding news card should appeared in the News page. 
+To add a news, create a new file in folder `news/_posts` with name format `yyyy-mm-dd-<name>.md` eg `2023-10-09-aneurysm-clip.md`. Once the file is created, the corresponding news card should appeared in the News page.
 
 The file should contain the following header:
 ```
@@ -27,13 +27,13 @@ thumbnail: <thumbnail image path, which should be saved as /assets/img/news_thum
 excerpt_separator: <!--more-->
 ---
 ```
- - Only author, title, and thumbnail needs configuration. 
+ - Only author, title, and thumbnail needs configuration.
  - It's recommended to resize/crop the thumbnail image to 640x640 pixels.
  - `excerpt_separator` allows showing a part of the news content (excerpt) in the news card. Use `<!--more-->` to separate out the excerpt (the text before it will be excerpt).
  - It's easier to copy the code in previous news file and edit based on it.
 
 ## Add projects
-Similar to adding news, create a new file in folder `projects/_posts` with name format `yyyy-mm-dd-<name>.md` eg `2023-10-08-stroke.md`. The date can be used to arrange the order of the project cards in the Projects page, it doesn't matter which exactly date chosen. 
+Similar to adding news, create a new file in folder `projects/_posts` with name format `yyyy-mm-dd-<name>.md` eg `2023-10-08-stroke.md`. The date can be used to arrange the order of the project cards in the Projects page, it doesn't matter which exactly date chosen.
 
 The file should contain the following header:
 ```
@@ -45,7 +45,7 @@ thumbnail: <thumbnail image path, which should be saved as /assets/img/projects_
 brief: <a brief introduction to the project, which will be shown in the project card>
 ---
 ```
- - Only title, thumbnail_title, thumbnail and brief needs configuration. 
+ - Only title, thumbnail_title, thumbnail and brief needs configuration.
  - It's recommended to resize/crop the thumbnail image to 640x640 pixels.
  - It's easier to copy the code in previous project file and edit based on it.
 
@@ -57,7 +57,7 @@ Given BibTex of articles, one way to add reference is as follows:
    {% raw %}
    <your html code>
    {% endraw %}
-   ``` 
+   ```
 3. Put this piece of code anywhere as you want in the Markdown file.
 
 This is the most straightforward way I found up to now as Github Page limits plugins to be added.
@@ -77,5 +77,4 @@ If you would like to know more about this template, please see the [tutorial](ht
 # Useful things
 ## Useful commands
 ### padding images
-convert filename -gravity center -background "rgb(255,255,255)" -extent 640x640 filename 
-
+convert filename -gravity center -background "rgb(255,255,255)" -extent 640x640 filename

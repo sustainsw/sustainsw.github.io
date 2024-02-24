@@ -1,10 +1,10 @@
 # Create a Website Using bootstrap-template
 
-[bootstrap-template](https://github.com/thecdil/bootstrap-template) is a basic template repository to create a [Bootstrap](https://getbootstrap.com/) site using Jekyll on GitHub Pages (or where every you want to host it). 
+[bootstrap-template](https://github.com/thecdil/bootstrap-template) is a basic template repository to create a [Bootstrap](https://getbootstrap.com/) site using Jekyll on GitHub Pages (or where every you want to host it).
 The layout is based on the [Bootstrap starter template example](https://getbootstrap.com/docs/4.5/examples/) with a navbar, search box (using lunr.js), and sticky footer.
 It is intended as a quick starting point for creating new web projects.
 
-The basic steps for using bootstrap-template are: 
+The basic steps for using bootstrap-template are:
 
 1. create repository from the template
 2. edit _config.yml
@@ -16,9 +16,9 @@ The basic steps for using bootstrap-template are:
 - Visit bootstrap-template: <https://github.com/thecdil/bootstrap-template>
 - Make your own copy of the repository by clicking the green "Use this template" button (alternatively, use Import or manually copy files to a new repo).
     - Since the repository name will become part of the site URL, use a sensible name with no spaces or odd characters (dash or underscore are okay).
-- Activate GitHub Pages. 
+- Activate GitHub Pages.
     - On your repository visit "Settings", click "Pages" on the side menu.
-    - In the "GitHub Pages" settings, under "Source" select Branch "main" from the drop down, and click Save. 
+    - In the "GitHub Pages" settings, under "Source" select Branch "main" from the drop down, and click Save.
     - Once activated, it will provide your new URL, following the pattern `https://username.github.io/repository_name`
 
 ## Edit _config.yml
@@ -46,7 +46,7 @@ Front matter options:
 
 - `title` will appear as h1 at top of the page content (when using `page`, `page-full-width`, or `page-narrow` layouts only).
 - `nav` if this option has a value, it will appear in the navbar as link to this page. (any stub without a `nav` value will not appear in the navbar)
-- `nav_order` navbar items will be sorted using this number. 
+- `nav_order` navbar items will be sorted using this number.
 - `layout` by default is set to `page`, but can be optionally added to override the default. Built in options are `default`, `page`, `page-full-width`, or `page-narrow`.
 
 Use `includes` to simplify adding Bootstrap features to Markdown pages, see comments in `_include/` files for instructions.
@@ -59,7 +59,7 @@ bootstrap-template has a few built in customization options enabling you to quic
 - Tweak bootstrap theme colors using `_data/theme-colors.csv`. Add a css color in the color column next to the BS color-class to override, or create a new class name. This works with `_sass/_theme-colors.scss` to auto generate btn-, text-, and bg- classes based on your settings.
 - Add custom CSS to `_sass/_custom.scss`. Styles in this file will override the template and bootstrap.
 
-Once you exhaust the possibilities of these built in options, checkout the `_layouts/` and `_includes/template/` folders. 
+Once you exhaust the possibilities of these built in options, checkout the `_layouts/` and `_includes/template/` folders.
 These files provide the basic template and can be easily tweaked using Bootstrap classes.
 
 ## Template Assets
@@ -71,6 +71,6 @@ Project assets from external sources are included in assets/lib folder:
 - [Bootstrap Icons](https://icons.getbootstrap.com/) 1.1.0
 - [lunr.js](https://lunrjs.com/) 2.3.9
 
-They are included in this directory to ensure template projects can be self-contained and could be run with out connections to external dependencies or an internet connection. 
+They are included in this directory to ensure template projects can be self-contained and could be run with out connections to external dependencies or an internet connection.
 Links to these assets are contained in the `_includes/template/head.html` and `_includes/template/foot.html` files and could easily be replaced by CDN links if desired.
 The JQuery version should be kept up to date in ongoing projects, and may trigger GitHub Dependabot alerts when out of date.

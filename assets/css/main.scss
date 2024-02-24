@@ -13,11 +13,11 @@ $container-narrow: 700px;
 /* Optionally limit container size to make reading easier */
 // $container-max: 750px;
 
-/* 
-  Colors to theme 
+/*
+  Colors to theme
   set colors in _data/theme-colors.csv
 */
-{% assign btns = site.data.theme-colors | where_exp: "item","item.color != nil" %} 
+{% assign btns = site.data.theme-colors | where_exp: "item","item.color != nil" %}
 {% for btn in btns %}
 ${{ btn.color_class }}: {{ btn.color }};
 {% endfor %}

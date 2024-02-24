@@ -8,4 +8,3 @@ layout: page
 
 
 {% include region_maps.html %}
-
