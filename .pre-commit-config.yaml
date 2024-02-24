@@ -15,6 +15,6 @@ repos:
     - id: yamllint
       args: [--strict]
  - repo: https://github.com/PyCQA/bandit
-   rev: ''
+   rev: '1.7.7'
    hooks:
     - id: bandit
