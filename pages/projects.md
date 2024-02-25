@@ -22,12 +22,12 @@ nav_order: 5
       <h6 class="card-title">{{ post.title }}</h6>
       <a href="{{post.url}}" class="btn btn-primary">See details</a>
     </div>
-   </div> 
+   </div>
   </div>
   {% endif %}
         {% endif %}
     {% endfor %}
-   </div> 
+   </div>
 </div>
 
 ### Completed
@@ -47,10 +47,10 @@ nav_order: 5
       <h6 class="card-title">{{ post.title }}</h6>
       <a href="{{post.url}}" class="btn btn-primary">See details</a>
     </div>
-   </div> 
+   </div>
   </div>
   {% endif %}
         {% endif %}
     {% endfor %}
-   </div> 
+   </div>
 </div>

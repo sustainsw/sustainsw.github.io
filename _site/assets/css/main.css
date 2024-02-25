@@ -1,13 +1,13 @@
 /* Optionally tweak base body text and link color */
 /* Set contain-narrow size for page-narrow layout */
 /* Optionally limit container size to make reading easier */
-/* 
-  Colors to theme 
+/*
+  Colors to theme
   set colors in _data/theme-colors.csv
 */
-/* 
+/*
     This is a modified version of Bootstrap Sass for customizing theme colors.
-    It is intended to create an easy means to override basic theme colors for btn- text-, and bg- classes. It is not complete Bootstrap theming! 
+    It is intended to create an easy means to override basic theme colors for btn- text-, and bg- classes. It is not complete Bootstrap theming!
 
     The functions are called from assets/css/main.scss
 */
@@ -84,8 +84,8 @@ button.bg-dark:focus {
   background-color: black !important;
 }
 
-/* 
-    Template styles 
+/*
+    Template styles
     see assets/css/custom.scss for variables
 */
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
