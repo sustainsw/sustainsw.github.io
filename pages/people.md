@@ -142,6 +142,12 @@ at UoP.
         {% include person.html name="Dan Browning" image="/assets/img/Dan_Browning.jpg"
         introduction=intro_dan_browning %}
 
+
+        {% capture intro_cansel_keskin %}
+Cansel Keskin, a medical graduate, currently works as a cardiographer within the Cardiology Department at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. Collaborating closely with professionals in the field, she has developed a keen interest in ECG analysis and interpretation. Alongside her research endeavors, Cansel actively engages in hospital-based teaching, emphasizing ECG analysis and interpretation. 
+        {% endcapture %}
+        {% include person.html name="Cansel Keskin" image="/assets/img/Cansel_Keskin.jpg"
+        introduction=intro_cansel_keskin %}
     </div>
 </div>
 
