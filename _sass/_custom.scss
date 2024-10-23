@@ -81,3 +81,68 @@
     border-color: white;
     /* Example border color */
 }
+
+
+/* CSS to make dropdown menus open on hover */
+@media (min-width: 992px) {
+
+    /* Adjusts for devices with widths 992px and up, similar to Bootstrap's navbar-expand-lg */
+    .navbar .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+
+.navbar .dropdown-menu {
+    border: none;
+    /* Removes the border */
+    /* Optional: if there's a box-shadow you want to remove as well */
+    box-shadow: none;
+    margin-top: 0;
+    /* Removes any margin between the dropdown button and the menu */
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    /* Larger text size */
+    margin-right: 30px;
+    /* More space between items */
+    padding: 5px 15px;
+    /* Optional: Adjust if you want to change the vertical space inside the items */
+    font-weight: bold;
+    /* Makes the text bold */
+}
+
+
+.navbar .nav-link:hover {
+    border-bottom: 2px solid #afafaf;
+    /* Makes the underline thicker and blue */
+    padding-bottom: 1px;
+    /* Increases distance from the text */
+}
+
+
+
+.social-media-icons a {
+    margin: 0 10px;
+    font-size: 30px;
+    /* Pushes the icons to the bottom */
+}
+
+.social-media-icons {
+    display: flex;
+    /* This will enable flexbox for the container */
+    align-items: center;
+    /* Align items vertically in the center */
+    justify-content: start;
+    /* Align items to the start of the container */
+    flex-direction: row;
+    /* Ensures the items are laid out in a row */
+}
+
+
+.social-media-icons p {
+    margin: 0 10px 0 0;
+    font-size: 25px;
+    /* Adjusts spacing around the paragraph. Remove right margin if not needed */
+}
