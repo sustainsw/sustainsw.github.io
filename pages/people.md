@@ -2,7 +2,7 @@
 title: People
 parent: Team
 nav: People
-nav_order: 3
+nav_order: 9
 ---
 ## Research team
 
@@ -110,24 +110,7 @@ at UoP.
         {% include person.html name="Adam Streeter" image="/assets/img/Adam_Streeter.jpg"
         introduction=intro_adam_streeter %}
 
-        {% capture intro_marie_jasim %}
-        Dr Marie Jasim is an NIHR Research Associate and an Undergraduate
-        Clinical Teaching Fellow at <a
-        href="https://www.torbayandsouthdevon.nhs.uk/visiting-us/torbay-hospital/">Torbay
-        Hospital</a>. As an Early Career Researcher, she is involved in various
-        local and national neurology studies. Her primary research interest is
-         focused on Functional Neurological Disorders and improving access to
-        healthcare services for this patient cohort.
-        {% endcapture %}
-        {% include person.html name="Marie Jasim" image="/assets/img/Marie_Jasim.jpg"
-        introduction=intro_marie_jasim %}
 
-
-        {% capture intro_victor_rusu %}
-        Dr Victor Rusu is a Neurology Registrar working at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is currently undergoing the Research Associate scheme from    <a href="https://www.nihr.ac.uk/">NIHR</a>. His primary research interest is focused on Movement Disorders (but also other neurodegenerative conditions), looking at improving the local care delivered to patients with these illnesses and assessing the impact of the current NHS structure (Specialist Neurology clinics in particular) on patient care.
-        {% endcapture %}
-        {% include person.html name="Victor Rusu" image="/assets/img/Victor_Rusu.jpg"
-        introduction=intro_victor_rusu %}
 
         {% capture intro_galaleldin_abdelhalim %}
         Dr Abdelhalim is a Clinical Radiology Speciality Trainee at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to
@@ -177,16 +160,6 @@ Cansel Keskin, a medical graduate, currently works as a cardiographer within the
         introduction=intro_michael_allen %}
 
 
-
-
-        {% capture intro_michael_ogara %}
-        Dr O'Gara is a Neurology consultant at <a href="https://www.plymouth.ac.uk/">University of Plymouth</a>.
-        He has specialist interests in Acute Neurology and Functional
-        Neurological Disorders (FND). He runs a specialist clinic in FND,
-        serving patients from around the Southwest.
-        {% endcapture %}
-        {% include person.html name="Michael O'Gara" image="/assets/img/Mike_Ogara.jpg"
-        introduction=intro_michael_ogara %}
 
         {% capture intro_stephen_hall %}
         Stephen is Professor in Human Neuroimaging, with a research focus on the application of multimodal neural measurement approaches to determine the brain mechanisms of cognitive and behavioural function in health and disease.
