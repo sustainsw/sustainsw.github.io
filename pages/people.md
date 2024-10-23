@@ -62,7 +62,7 @@ at UoP.
 
 
         {% capture intro_megan_courtman %}
-        <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan Courtman</a> is
+        <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Dr Megan Courtman</a> is
         a data scientist interested in using explainable AI to solve problems
         in healthcare. Much of her work focuses on building computer vision
         models for medical imaging classification. She has won the <a
