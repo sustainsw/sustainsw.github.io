@@ -159,23 +159,24 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden; /* Hide overflow to crop images vertically as needed */
 
-
-/* Style for images to cover the container width */
-.slideshow-container img {
-    width: 100%; /* Full width of container */
-    height: 600px; /* Full height to cover container */
-    object-fit: cover; /* Ensures images fill the container without stretching */
+  }
+  
+  /* Style for images to cover the container width */
+  .slideshow-container img {
+      width: 100%; /* Full width of container */
+      max-height: 60vh; /* Limit max height to 70% of the viewport for large screens */
+      object-fit: cover; /* Ensures consistent cropping to fit container dimensions */
   }
 
 
 /* Caption text */
-.text {
-  color: #f2f2f2;
+.slideshow-text {
+  color: #ffffff;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -211,7 +212,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 10s;
+  animation-duration: 4s;
 }
 
 @keyframes fade {

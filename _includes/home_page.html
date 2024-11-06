@@ -12,27 +12,35 @@
       <a href="our_region.html" target="_blank">
         <img src="/assets/img/home_page_img_plymouth_1.jpg" >
       </a>
-      <div class="text">Our Region</div>
+      <div class="slideshow-text">Our Region</div>
     </div>
     
     <div class="mySlides fade">
       <a href="projects.html" target="_blank">
       <img src="/assets/img/home_page_img_projects.png" >
     </a>
-      <div class="text">Our Projects</div>
+      <div class="slideshow-text">Our Projects</div>
     </div>
     
     <div class="mySlides fade">
       <a href="people.html" target="_blank">
-      <img src="/assets/img/home_page_img_people.png" >
+      <img src="/assets/img/home_page_img_people.jpg" >
     </a>
-      <div class="text">Our People</div>
+      <div class="slideshow-text">Our People</div>
+    </div>
+
+    <div class="mySlides fade">
+      <a href="our_data.html" target="_blank">
+      <img src="/assets/img/home_page_img_ourdata.jpg" >
+    </a>
+      <div class="slideshow-text">Our data</div>
     </div>
     
     </div>
     <br>
     
     <div style="text-align:center">
+      <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
@@ -73,22 +81,36 @@
 
 <script>
   let slideIndex = 0;
-  showSlides();
-  
-  function showSlides() {
-    let i;
+  showSlides(slideIndex);
+
+  function showSlides(index) {
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
+
+    // Loop to hide all slides and remove active class from dots
+    for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
+
+    // Adjust index if it's out of range
+    slideIndex = (index >= slides.length) ? 0 : (index < 0) ? slides.length - 1 : index;
+
+    // Display the selected slide and mark the corresponding dot as active
+    slides[slideIndex].style.display = "block";  
+    dots[slideIndex].className += " active";
   }
-  </script>
+
+  // Automatic slideshow every 4 seconds
+  setInterval(function() {
+    showSlides(slideIndex += 1);
+  }, 4000);
+
+  // Make dots clickable to jump to specific slides
+  const dots = document.getElementsByClassName("dot");
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].addEventListener("click", function() {
+      showSlides(slideIndex = i);
+    });
+  }
+</script>
