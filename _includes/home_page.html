@@ -81,7 +81,7 @@
 
 <script>
   let slideIndex = 0;
-  showSlides(slideIndex);
+  let autoSlideInterval;
 
   function showSlides(index) {
     let slides = document.getElementsByClassName("mySlides");
@@ -101,16 +101,26 @@
     dots[slideIndex].className += " active";
   }
 
-  // Automatic slideshow every 4 seconds
-  setInterval(function() {
-    showSlides(slideIndex += 1);
-  }, 4000);
+  // Function to start the automatic slideshow
+  function startSlideshow() {
+    autoSlideInterval = setInterval(function() {
+      showSlides(slideIndex += 1);
+    }, 4000); // Change every 4 seconds
+  }
 
-  // Make dots clickable to jump to specific slides
+  // Stop slideshow on hover and show the corresponding slide
   const dots = document.getElementsByClassName("dot");
   for (let i = 0; i < dots.length; i++) {
-    dots[i].addEventListener("click", function() {
-      showSlides(slideIndex = i);
+    dots[i].addEventListener("mouseover", function() {
+      clearInterval(autoSlideInterval);  // Stop the slideshow
+      showSlides(slideIndex = i);        // Show the hovered slide
+    });
+
+    dots[i].addEventListener("mouseout", function() {
+      startSlideshow();                  // Resume slideshow on mouse out
     });
   }
+
+  // Start the automatic slideshow on page load
+  startSlideshow();
 </script>
