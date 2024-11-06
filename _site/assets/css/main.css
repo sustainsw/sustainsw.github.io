@@ -408,6 +408,13 @@ img {
     opacity: 1;
   }
 }
+/* On smaller screens, adjust image height to a fixed proportion of the viewport width */
+@media only screen and (max-width: 600px) {
+  .slideshow-container img {
+    height: 56.25vw; /* Maintain a 16:9 aspect ratio (56.25% of the width) */
+    max-height: none; /* Remove max-height restriction */
+  }
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
