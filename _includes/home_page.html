@@ -1,0 +1,116 @@
+<!-- Hero Section with Text and Background Image -->
+
+
+
+
+
+
+<div>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <a href="our_region.html" target="_blank">
+        <img src="/assets/img/home_page_img_plymouth_1.jpg" >
+      </a>
+      <div class="slideshow-text">Our Region</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <a href="projects.html" target="_blank">
+      <img src="/assets/img/home_page_img_projects.png" >
+    </a>
+      <div class="slideshow-text">Our Projects</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <a href="people.html" target="_blank">
+      <img src="/assets/img/home_page_img_people.jpg" >
+    </a>
+      <div class="slideshow-text">Our People</div>
+    </div>
+
+    <div class="mySlides fade">
+      <a href="our_data.html" target="_blank">
+      <img src="/assets/img/home_page_img_ourdata.jpg" >
+    </a>
+      <div class="slideshow-text">Our data</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+  <div class="container-fluid my-4">
+
+    <p>
+      SUSTAIN SW is a collaboration between the 
+      <a href="https://www.plymouth.ac.uk/">University of Plymouth</a> 
+      and 
+      <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust</a>.
+      Made up of academic clinicians, data scientists, and governance experts, it aims to leverage the unique demographics, geography, and healthcare infrastructure of the 
+      <a href="{% link pages/our_region.md %}">South West Peninsula</a> 
+      to produce data-driven solutions to unmet healthcare needs. This means developing technologies which allow earlier diagnosis, enable disease risk stratification, and/or improve patient safety. Our 
+      <a href="{% link pages/projects.md %}">projects</a>, 
+      which span a range of disease areas, are selected because they have a high chance of making a rapid impact on patient care.
+    </p>
+    
+    <p>
+      Central to our work is the use of routinely collected 
+      <a href="{% link pages/our_data.md %}">healthcare data in a transparent, safe, and secure manner</a>. 
+      We use this data to enable the development of models (often using Artificial Intelligence or other advanced bioinformatic/statistical techniques) to improve the performance of healthcare systems, allowing cheaper, better care for patients. To enable this, we have developed a strategic network of collaborators and supporters across the 
+      <a href="https://plymouth-neuroimaging.github.io/our_region.html">South West Peninsula</a> 
+      of the United Kingdom. This network draws on expertise in the academic, healthcare, and commercial sectors, to enable the development of technologies in the most rapid and efficient way possible. We hope that our work will improve the delivery of healthcare and add to the economic prosperity of the region and the UK.
+    </p>
+  
+
+  </div>
+</div>
+
+
+<script>
+  let slideIndex = 0;
+  showSlides(slideIndex);
+
+  function showSlides(index) {
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+
+    // Loop to hide all slides and remove active class from dots
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    // Adjust index if it's out of range
+    slideIndex = (index >= slides.length) ? 0 : (index < 0) ? slides.length - 1 : index;
+
+    // Display the selected slide and mark the corresponding dot as active
+    slides[slideIndex].style.display = "block";  
+    dots[slideIndex].className += " active";
+  }
+
+  // Automatic slideshow every 4 seconds
+  setInterval(function() {
+    showSlides(slideIndex += 1);
+  }, 4000);
+
+  // Make dots clickable to jump to specific slides
+  const dots = document.getElementsByClassName("dot");
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].addEventListener("click", function() {
+      showSlides(slideIndex = i);
+    });
+  }
+</script>
