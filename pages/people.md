@@ -45,6 +45,17 @@ nav_order: 9
         {% include person.html name="Stephen Mullin" image="/assets/img/Stephen_Mullin.jpg"
         introduction=intro_stephen_mullin %}
 
+
+        {% capture intro_ellie_edlmann %}
+        Dr Ellie Edlmann, FRCS Neurosurgery, PhD is a clinical lecturer in
+        Neurosurgery with an academic interest in clinical trials, traumatic
+        brain injury and chronic subdural haematoma. Her clinical focus is
+        neuro-oncology and trauma/head injury management.
+        {% endcapture %}
+        {% include person.html name="Ellie Edlmann" image="/assets/img/Ellie_Edlmann.jpg"
+        introduction=intro_ellie_edlmann %}
+        
+
         {% capture intro_emmanuel_ifeachor %}
                 <a href="https://www.plymouth.ac.uk/staff/emmanuel-ifeachor">Emmanuel Ifeachor</a>
   is a Professor of Intelligent Electronic Systems at the UoP. He is an electronics and biomedical engineer and
@@ -184,14 +195,7 @@ Cansel Keskin, a medical graduate, currently works as a cardiographer within the
         {% include person.html name="Damjan Veljanoski" image="/assets/img/Damjan_Veljanoski.jpg"
         introduction=intro_damjan_veljanoski %}
 
-        {% capture intro_ellie_edlmann %}
-        Dr Ellie Edlmann, FRCS Neurosurgery, PhD is a clinical lecturer in
-        Neurosurgery with an academic interest in clinical trials, traumatic
-        brain injury and chronic subdural haematoma. Her clinical focus is
-        neuro-oncology and trauma/head injury management.
-        {% endcapture %}
-        {% include person.html name="Ellie Edlmann" image="/assets/img/Ellie_Edlmann.jpg"
-        introduction=intro_ellie_edlmann %}
+
 
 
         {% capture intro_holly_roy %}
