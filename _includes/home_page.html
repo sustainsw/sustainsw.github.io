@@ -78,7 +78,6 @@
   </div>
 </div>
 
-
 <script>
   let slideIndex = 0;
   let autoSlideInterval;
@@ -108,6 +107,12 @@
     }, 4000); // Change every 4 seconds
   }
 
+  // Initialize the slideshow on page load
+  function initSlideshow() {
+    showSlides(slideIndex); // Show the first slide immediately
+    startSlideshow();       // Start the slideshow
+  }
+
   // Stop slideshow on hover and show the corresponding slide
   const dots = document.getElementsByClassName("dot");
   for (let i = 0; i < dots.length; i++) {
@@ -121,6 +126,6 @@
     });
   }
 
-  // Start the automatic slideshow on page load
-  startSlideshow();
+  // Run the initialization function on page load
+  document.addEventListener("DOMContentLoaded", initSlideshow);
 </script>
