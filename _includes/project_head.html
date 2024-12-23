@@ -1,5 +1,12 @@
 <table class="table table-sm">
     <tbody>
+
+        {% if include.proj_website %}
+        <tr>
+            <td>Website:</td>
+            <td>{{include.proj_website}}</td>
+        </tr>
+        {% endif %}
         {% if include.disease_area %}
         <tr>
             <td>Disease area(s):</td>
