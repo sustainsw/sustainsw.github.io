@@ -47,10 +47,7 @@ nav_order: 9
 
 
         {% capture intro_ellie_edlmann %}
-        Dr Ellie Edlmann, FRCS Neurosurgery, PhD is a clinical lecturer in
-        Neurosurgery with an academic interest in clinical trials, traumatic
-        brain injury and chronic subdural haematoma. Her clinical focus is
-        neuro-oncology and trauma/head injury management.
+Dr Ellie Edlmann, FRCS Neurosurgery, PhD is a consultant <a href="https://www.plymouthhospitals.nhs.uk/neurosurgery/">neurosurgeon </a> and <a href="https://www.plymouth.ac.uk/staff/ellie-edlmann">associate professor of neurosurgery at UoP</a>. She has extensive experience in designing and running clinical trials across a range of neurosurgical conditions, including trauma, chronic subdural haematoma and infection. An essential part of her research has involved developing public and patient engagement strategies and groups. She also has a passion for neuro-oncology and supporting patient rehabilitation following brain tumour treatment.
         {% endcapture %}
         {% include person.html name="Ellie Edlmann" image="/assets/img/Ellie_Edlmann.jpg"
         introduction=intro_ellie_edlmann %}
