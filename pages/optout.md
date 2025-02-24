@@ -13,7 +13,7 @@ Our research complies with the [highest standard of data protection]({% link pag
     <ul>
         {% for post in site.posts %}
             {% if post.categories contains 'projects' %}
-                {% if post.status contains 'active' %}
+                {% if post.status contains 'active-compiling data' %}
                     <li>
                         <a href="{{ post.url }}" target="_blank"> {{ post.title }}
                         </a>
